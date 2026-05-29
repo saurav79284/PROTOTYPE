@@ -123,33 +123,41 @@ initialize_stats(ALL_TRANSACTIONS, ACCOUNTS)
 
 def _csv_to_transaction(row):
     """Convert a CSV row dict to a Transaction model."""
-    channel_str = row["channel"]
+    
+    # Normalize column names — handle different CSV schemas
+    def get(row, *keys, default=None):
+        for k in keys:
+            if k in row and row[k] not in (None, ""):
+                return row[k]
+        return default
+
+    channel_str = get(row, "channel", "payment_channel", "txn_channel", default="imps")
     try:
         channel = TransactionChannel(channel_str)
     except ValueError:
         channel = TransactionChannel.IMPS
 
     try:
-        ts = datetime.strptime(row["timestamp"], "%Y-%m-%d %H:%M:%S")
-    except (ValueError, KeyError):
+        ts_raw = get(row, "timestamp", "txn_timestamp", "date", "created_at")
+        ts = datetime.strptime(ts_raw, "%Y-%m-%d %H:%M:%S")
+    except (ValueError, TypeError):
         ts = datetime.now() - timedelta(seconds=random.randint(0, 3600))
 
     return Transaction(
-        txn_id=row.get("txn_id", f"TXN{uuid.uuid4().hex[:12].upper()}"),
+        txn_id=get(row, "txn_id", "transaction_id", "id") or f"TXN{uuid.uuid4().hex[:12].upper()}",
         timestamp=ts,
-        sender_account=row["sender_account"],
-        sender_name=row["sender_name"],
-        receiver_account=row["receiver_account"],
-        receiver_name=row["receiver_name"],
-        amount=float(row["amount"]),
+        sender_account=get(row, "sender_account", "from_account", "payer_account", "src_account"),
+        sender_name=get(row, "sender_name", "from_name", "payer_name", "sender", default="Unknown"),
+        receiver_account=get(row, "receiver_account", "to_account", "payee_account", "dst_account"),
+        receiver_name=get(row, "receiver_name", "to_name", "payee_name", "receiver", default="Unknown"),
+        amount=float(get(row, "amount", "txn_amount", "value", default=0)),
         channel=channel,
-        sender_bank=row.get("sender_bank", "PSB National Bank"),
-        receiver_bank=row.get("receiver_bank", "PSB National Bank"),
-        location=row.get("location"),
-        device_id=row.get("device_id"),
-        ip_address=row.get("ip_address"),
+        sender_bank=get(row, "sender_bank", "from_bank", "payer_bank", default="PSB National Bank"),
+        receiver_bank=get(row, "receiver_bank", "to_bank", "payee_bank", default="PSB National Bank"),
+        location=get(row, "location", "city", "txn_location"),
+        device_id=get(row, "device_id", "device"),
+        ip_address=get(row, "ip_address", "ip"),
     )
-
 
 def generate_txn_id():
     return f"TXN{datetime.now().strftime('%Y%m%d')}{uuid.uuid4().hex[:8].upper()}"
