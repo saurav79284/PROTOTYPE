@@ -9,21 +9,87 @@ from backend.models import Transaction, TransactionChannel
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 
-# ─── Load CSV Dataset ───
+# Ensure data directory exists
+os.makedirs(DATA_DIR, exist_ok=True)
+
+# ─── Data Generation (for when files don't exist) ───
+def _generate_demo_accounts(count=1000):
+    """Generate demo accounts if CSV doesn't exist."""
+    import random
+    banks = ["BankA", "BankB", "BankC", "BankD", "BankE"]
+    cities = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "London", "Dubai", "Singapore"]
+    
+    accounts = []
+    for i in range(count):
+        accounts.append({
+            "account_id": f"ACC{i+1:06d}",
+            "holder_name": f"Account_Holder_{i+1}",
+            "bank": random.choice(banks),
+            "city": random.choice(cities),
+            "balance": random.randint(1000, 500000),
+        })
+    return accounts
+
+def _generate_demo_transactions(count=50000):
+    """Generate demo transactions if CSV doesn't exist."""
+    import random
+    pattern_types = ["normal", "suspicious", "mule", "structuring", "layering"]
+    channels = ["wire", "ach", "card", "check"]
+    
+    transactions = []
+    for i in range(count):
+        is_suspicious = random.random() < 0.05  # 5% suspicious
+        transactions.append({
+            "txn_id": f"TXN{i+1:08d}",
+            "account_id": f"ACC{random.randint(1, 1000):06d}",
+            "amount": random.randint(100, 100000),
+            "pattern_type": random.choice(pattern_types) if is_suspicious else "normal",
+            "channel": random.choice(channels),
+            "timestamp": (datetime.now() - timedelta(days=random.randint(0, 30))).isoformat(),
+        })
+    return transactions
+
+def _generate_demo_fraud_rings(count=15):
+    """Generate demo fraud rings if JSON doesn't exist."""
+    import random
+    rings = []
+    for i in range(count):
+        members = [f"ACC{random.randint(1, 1000):06d}" for _ in range(random.randint(3, 8))]
+        rings.append({
+            "ring_id": f"RING{i+1:03d}",
+            "type": "circular_flow",
+            "members": list(set(members)),
+            "suspicious_score": round(random.uniform(60, 95), 2),
+        })
+    return rings
+
+# ─── Load CSV Dataset with Fallback ───
 def _load_accounts():
     path = os.path.join(DATA_DIR, "accounts.csv")
-    with open(path, "r", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return list(csv.DictReader(f))
+    else:
+        # Generate demo data
+        return _generate_demo_accounts()
 
 def _load_transactions():
     path = os.path.join(DATA_DIR, "transactions.csv")
-    with open(path, "r", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return list(csv.DictReader(f))
+    else:
+        # Generate demo data
+        return _generate_demo_transactions()
 
 def _load_fraud_rings():
     path = os.path.join(DATA_DIR, "fraud_rings.json")
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    else:
+        # Generate demo data
+        return _generate_demo_fraud_rings()
 
 ACCOUNTS = _load_accounts()
 ALL_TRANSACTIONS = _load_transactions()
