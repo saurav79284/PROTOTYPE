@@ -1,0 +1,65 @@
+{
+  "feature_columns": [
+    "amount",
+    "amount_log",
+    "channel_encoded",
+    "hour_of_day",
+    "is_night",
+    "is_weekend",
+    "sender_txn_count",
+    "sender_avg_amount",
+    "amount_deviation",
+    "receiver_txn_count",
+    "is_cross_bank",
+    "sender_city_risk",
+    "amount_near_threshold",
+    "sender_unique_receivers"
+  ],
+  "channel_classes": [
+    "CBS",
+    "IMPS",
+    "NEFT",
+    "RTGS",
+    "SWIFT",
+    "UPI"
+  ],
+  "training_stats": {
+    "train_samples": 40000,
+    "n_features": 14
+  },
+  "metrics": {
+    "accuracy": 0.9704,
+    "precision_fraud": 0.8909090909090909,
+    "recall_fraud": 0.6749311294765841,
+    "f1_fraud": 0.768025078369906,
+    "precision_normal": 0.975026455026455,
+    "recall_normal": 0.9935302997627776,
+    "f1_normal": 0.9841914120914335,
+    "roc_auc": 0.8339776299272054,
+    "confusion_matrix": {
+      "tn": 9214,
+      "fp": 60,
+      "fn": 236,
+      "tp": 490
+    },
+    "feature_importances": {
+      "amount": 0.4769,
+      "is_cross_bank": 0.0509,
+      "is_weekend": 0.0492,
+      "is_night": 0.0479,
+      "sender_avg_amount": 0.0474,
+      "amount_deviation": 0.0448,
+      "sender_city_risk": 0.0437,
+      "channel_encoded": 0.0428,
+      "hour_of_day": 0.0426,
+      "sender_unique_receivers": 0.0423,
+      "sender_txn_count": 0.0423,
+      "receiver_txn_count": 0.0417,
+      "amount_log": 0.0248,
+      "amount_near_threshold": 0.0027
+    },
+    "training_samples": 40000,
+    "test_samples": 10000,
+    "label_noise_rate": 0.04
+  }
+}

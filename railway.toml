@@ -1,0 +1,13 @@
+[build]
+builder = "dockerfile"
+
+[env]
+PORT = "8000"
+PYTHONUNBUFFERED = "1"
+DEBUG = "false"
+ALLOWED_ORIGINS = "*"
+
+[deploy]
+startCommand = "python -m uvicorn backend.main:app --host 0.0.0.0 --port $PORT"
+healthcheckPath = "/health"
+healthcheckTimeout = 10

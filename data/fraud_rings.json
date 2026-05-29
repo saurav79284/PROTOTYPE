@@ -1,0 +1,896 @@
+[
+  {
+    "type": "circular_flow",
+    "members": [
+      118,
+      916,
+      949,
+      506,
+      41,
+      118
+    ],
+    "ring_id": 0,
+    "account_ids": [
+      "PSBN84121929",
+      "CNRB58663129",
+      "PSBN71862210",
+      "UBIN75790669",
+      "SBIN24366125",
+      "PSBN84121929"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      367,
+      729,
+      577,
+      498,
+      470,
+      367
+    ],
+    "ring_id": 1,
+    "account_ids": [
+      "PNBK35111946",
+      "PNBK35224021",
+      "SBIN48270459",
+      "PNBK36883353",
+      "KOTK80137085",
+      "PNBK35111946"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      116,
+      874,
+      745,
+      895,
+      153,
+      116
+    ],
+    "ring_id": 2,
+    "account_ids": [
+      "PSBN37321124",
+      "UBIN16920612",
+      "PNBK34007090",
+      "BARB13026428",
+      "KOTK38984499",
+      "PSBN37321124"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      361,
+      96,
+      212,
+      902,
+      361
+    ],
+    "ring_id": 3,
+    "account_ids": [
+      "KOTK23656928",
+      "BARB58436637",
+      "BARB50419829",
+      "KOTK28378036",
+      "KOTK23656928"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      189,
+      868,
+      177,
+      781,
+      531,
+      189
+    ],
+    "ring_id": 4,
+    "account_ids": [
+      "CNRB20298660",
+      "ICIC23153230",
+      "BARB50455821",
+      "UBIN51935074",
+      "KOTK95568918",
+      "CNRB20298660"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      591,
+      935,
+      694,
+      614,
+      225,
+      591
+    ],
+    "ring_id": 5,
+    "account_ids": [
+      "AXIS43767356",
+      "ICIC99479873",
+      "BARB85584002",
+      "SBIN29505652",
+      "CNRB51137177",
+      "AXIS43767356"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      4,
+      553,
+      807,
+      601,
+      191,
+      437,
+      4
+    ],
+    "ring_id": 6,
+    "account_ids": [
+      "UBIN56164955",
+      "PNBK33326387",
+      "AXIS87796412",
+      "SBIN12222998",
+      "PNBK18304547",
+      "UBIN90143600",
+      "UBIN56164955"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      263,
+      814,
+      527,
+      717,
+      263
+    ],
+    "ring_id": 7,
+    "account_ids": [
+      "ICIC32885741",
+      "BARB75084661",
+      "PNBK20048242",
+      "CNRB17124981",
+      "ICIC32885741"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      946,
+      348,
+      27,
+      303,
+      946
+    ],
+    "ring_id": 8,
+    "account_ids": [
+      "KOTK13610435",
+      "PNBK95004924",
+      "SBIN18135295",
+      "AXIS39667854",
+      "KOTK13610435"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      726,
+      130,
+      420,
+      399,
+      632,
+      994,
+      726
+    ],
+    "ring_id": 9,
+    "account_ids": [
+      "CNRB80303981",
+      "SBIN69549527",
+      "HDFC20043577",
+      "ICIC19796799",
+      "AXIS47616749",
+      "KOTK34074932",
+      "CNRB80303981"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      900,
+      346,
+      165,
+      31,
+      900
+    ],
+    "ring_id": 10,
+    "account_ids": [
+      "SBIN29278938",
+      "BARB89487366",
+      "PNBK84674816",
+      "PSBN62401521",
+      "SBIN29278938"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      496,
+      896,
+      764,
+      711,
+      496
+    ],
+    "ring_id": 11,
+    "account_ids": [
+      "ICIC17204398",
+      "HDFC36098642",
+      "ICIC30855594",
+      "PNBK56938140",
+      "ICIC17204398"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      489,
+      679,
+      291,
+      644,
+      710,
+      489
+    ],
+    "ring_id": 12,
+    "account_ids": [
+      "UBIN47162866",
+      "UBIN72866875",
+      "PSBN70858653",
+      "UBIN53632879",
+      "HDFC59025393",
+      "UBIN47162866"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      357,
+      48,
+      714,
+      676,
+      357
+    ],
+    "ring_id": 13,
+    "account_ids": [
+      "PSBN56047142",
+      "PSBN34073380",
+      "ICIC73242092",
+      "BARB52512063",
+      "PSBN56047142"
+    ]
+  },
+  {
+    "type": "circular_flow",
+    "members": [
+      353,
+      802,
+      804,
+      993,
+      872,
+      353
+    ],
+    "ring_id": 14,
+    "account_ids": [
+      "KOTK39666377",
+      "KOTK34131995",
+      "CNRB65141717",
+      "HDFC50601849",
+      "HDFC54681905",
+      "KOTK39666377"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      622,
+      141
+    ],
+    "ring_id": 0,
+    "account_ids": [
+      "AXIS24289484",
+      "AXIS77349752"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      233,
+      954
+    ],
+    "ring_id": 1,
+    "account_ids": [
+      "ICIC33173544",
+      "SBIN87603784"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      54,
+      884
+    ],
+    "ring_id": 2,
+    "account_ids": [
+      "HDFC87388337",
+      "ICIC89639062"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      708,
+      311
+    ],
+    "ring_id": 3,
+    "account_ids": [
+      "BARB75479608",
+      "HDFC42122457"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      356,
+      885
+    ],
+    "ring_id": 4,
+    "account_ids": [
+      "SBIN68809636",
+      "PNBK51137063"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      62,
+      826
+    ],
+    "ring_id": 5,
+    "account_ids": [
+      "SBIN71124923",
+      "KOTK34799223"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      79,
+      605
+    ],
+    "ring_id": 6,
+    "account_ids": [
+      "PSBN93394260",
+      "HDFC57045704"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      667,
+      424
+    ],
+    "ring_id": 7,
+    "account_ids": [
+      "CNRB62669959",
+      "BARB70655283"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      103,
+      444
+    ],
+    "ring_id": 8,
+    "account_ids": [
+      "BARB45520201",
+      "PNBK24887509"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      284,
+      201
+    ],
+    "ring_id": 9,
+    "account_ids": [
+      "CNRB88176558",
+      "PNBK34272734"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      269,
+      864
+    ],
+    "ring_id": 10,
+    "account_ids": [
+      "ICIC56815569",
+      "KOTK84189605"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      977,
+      449
+    ],
+    "ring_id": 11,
+    "account_ids": [
+      "SBIN31520919",
+      "KOTK23973438"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      100,
+      22
+    ],
+    "ring_id": 12,
+    "account_ids": [
+      "PNBK85543051",
+      "ICIC79467853"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      966,
+      238
+    ],
+    "ring_id": 13,
+    "account_ids": [
+      "UBIN98238841",
+      "SBIN26821075"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      185,
+      440
+    ],
+    "ring_id": 14,
+    "account_ids": [
+      "BARB33286644",
+      "UBIN89398174"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      886,
+      459
+    ],
+    "ring_id": 15,
+    "account_ids": [
+      "PNBK57395084",
+      "HDFC21761279"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      324,
+      737
+    ],
+    "ring_id": 16,
+    "account_ids": [
+      "CNRB20820219",
+      "PSBN42980201"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      855,
+      747
+    ],
+    "ring_id": 17,
+    "account_ids": [
+      "PNBK31442569",
+      "PSBN71557975"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      175,
+      138
+    ],
+    "ring_id": 18,
+    "account_ids": [
+      "AXIS25276327",
+      "BARB91478884"
+    ]
+  },
+  {
+    "type": "structuring",
+    "members": [
+      341,
+      561
+    ],
+    "ring_id": 19,
+    "account_ids": [
+      "UBIN43782566",
+      "HDFC44439001"
+    ]
+  },
+  {
+    "type": "layering",
+    "members": [
+      843,
+      928,
+      359,
+      786,
+      689,
+      151,
+      412,
+      765
+    ],
+    "ring_id": 0,
+    "account_ids": [
+      "PSBN33118870",
+      "CNRB84777007",
+      "PNBK35016429",
+      "SBIN53737494",
+      "AXIS23035125",
+      "ICIC22304198",
+      "CNRB20453825",
+      "PSBN79937264"
+    ]
+  },
+  {
+    "type": "layering",
+    "members": [
+      968,
+      426,
+      589,
+      232,
+      565
+    ],
+    "ring_id": 1,
+    "account_ids": [
+      "BARB90506654",
+      "AXIS16570040",
+      "PSBN15355917",
+      "BARB92124765",
+      "PSBN71636167"
+    ]
+  },
+  {
+    "type": "layering",
+    "members": [
+      453,
+      551,
+      310,
+      652,
+      695,
+      492,
+      104,
+      880
+    ],
+    "ring_id": 2,
+    "account_ids": [
+      "KOTK97371655",
+      "BARB93290380",
+      "BARB35504548",
+      "PNBK27619715",
+      "ICIC70062404",
+      "UBIN39845082",
+      "PSBN64830300",
+      "SBIN20760289"
+    ]
+  },
+  {
+    "type": "layering",
+    "members": [
+      957,
+      431,
+      721,
+      218,
+      510,
+      741,
+      501,
+      108
+    ],
+    "ring_id": 3,
+    "account_ids": [
+      "AXIS70831313",
+      "KOTK68137264",
+      "PSBN56544010",
+      "UBIN27905932",
+      "ICIC30552371",
+      "ICIC13343647",
+      "KOTK68211760",
+      "ICIC50814428"
+    ]
+  },
+  {
+    "type": "layering",
+    "members": [
+      607,
+      401,
+      547,
+      801,
+      264
+    ],
+    "ring_id": 4,
+    "account_ids": [
+      "BARB10734097",
+      "SBIN95971459",
+      "BARB45833216",
+      "PNBK96200382",
+      "BARB14237322"
+    ]
+  },
+  {
+    "type": "layering",
+    "members": [
+      588,
+      627,
+      753,
+      773,
+      625,
+      94
+    ],
+    "ring_id": 5,
+    "account_ids": [
+      "BARB15745651",
+      "UBIN20204415",
+      "ICIC87707540",
+      "PSBN51739205",
+      "SBIN44603983",
+      "UBIN26046365"
+    ]
+  },
+  {
+    "type": "layering",
+    "members": [
+      558,
+      521,
+      90,
+      967,
+      570,
+      355,
+      176
+    ],
+    "ring_id": 6,
+    "account_ids": [
+      "BARB99031246",
+      "PNBK23920137",
+      "PSBN79340535",
+      "SBIN80055957",
+      "PNBK81600831",
+      "PNBK56751880",
+      "AXIS99541016"
+    ]
+  },
+  {
+    "type": "layering",
+    "members": [
+      831,
+      362,
+      296,
+      634,
+      514,
+      351
+    ],
+    "ring_id": 7,
+    "account_ids": [
+      "SBIN14678950",
+      "CNRB75697427",
+      "UBIN25922674",
+      "SBIN79552316",
+      "ICIC37876214",
+      "PNBK96838849"
+    ]
+  },
+  {
+    "type": "layering",
+    "members": [
+      671,
+      87,
+      52,
+      626,
+      128
+    ],
+    "ring_id": 8,
+    "account_ids": [
+      "SBIN43999060",
+      "UBIN42949803",
+      "UBIN13704481",
+      "HDFC57391778",
+      "AXIS61003997"
+    ]
+  },
+  {
+    "type": "layering",
+    "members": [
+      503,
+      114,
+      568,
+      816,
+      889,
+      699,
+      306,
+      432
+    ],
+    "ring_id": 9,
+    "account_ids": [
+      "PSBN10553491",
+      "CNRB53389073",
+      "KOTK16109168",
+      "PNBK38300713",
+      "UBIN56150365",
+      "BARB44392465",
+      "PNBK72146184",
+      "PNBK57505459"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      309
+    ],
+    "ring_id": 0,
+    "account_ids": [
+      "KOTK85007641"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      97
+    ],
+    "ring_id": 1,
+    "account_ids": [
+      "AXIS49209916"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      628
+    ],
+    "ring_id": 2,
+    "account_ids": [
+      "CNRB34532913"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      142
+    ],
+    "ring_id": 3,
+    "account_ids": [
+      "SBIN72858374"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      829
+    ],
+    "ring_id": 4,
+    "account_ids": [
+      "PNBK69132953"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      222
+    ],
+    "ring_id": 5,
+    "account_ids": [
+      "UBIN46670512"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      227
+    ],
+    "ring_id": 6,
+    "account_ids": [
+      "SBIN95565484"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      486
+    ],
+    "ring_id": 7,
+    "account_ids": [
+      "CNRB66882385"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      101
+    ],
+    "ring_id": 8,
+    "account_ids": [
+      "KOTK93002706"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      890
+    ],
+    "ring_id": 9,
+    "account_ids": [
+      "SBIN13345404"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      391
+    ],
+    "ring_id": 10,
+    "account_ids": [
+      "PNBK61367949"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      917
+    ],
+    "ring_id": 11,
+    "account_ids": [
+      "CNRB13860039"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      958
+    ],
+    "ring_id": 12,
+    "account_ids": [
+      "KOTK77001977"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      564
+    ],
+    "ring_id": 13,
+    "account_ids": [
+      "HDFC23948820"
+    ]
+  },
+  {
+    "type": "dormant_reactivation",
+    "members": [
+      329
+    ],
+    "ring_id": 14,
+    "account_ids": [
+      "CNRB31803703"
+    ]
+  }
+]

@@ -1,0 +1,1001 @@
+account_id,holder_name,gender,bank,bank_code,account_type,kyc_status,opened_date,city,risk_label
+BARB39958838,Amit Agarwal,M,Bank of Baroda,BARB,Fixed Deposit,Verified,2016-07-25,Visakhapatnam,normal
+PSBN22575562,Disha Kumar,F,PSB National Bank,PSBN,Current,Pending Review,2017-06-14,Thiruvananthapuram,normal
+HDFC39587039,Kavita Rathore,F,HDFC Bank,HDFC,Joint,Verified,2020-01-14,Mumbai,normal
+UBIN47295260,Anil Khanna,M,Union Bank of India,UBIN,Current,Re-KYC Due,2016-09-28,Chandigarh,normal
+UBIN56164955,Chhaya Reddy,F,Union Bank of India,UBIN,Salary,Re-KYC Due,2021-10-08,Delhi,circular_flow
+HDFC20576383,Hemant Iyer,M,HDFC Bank,HDFC,Salary,Re-KYC Due,2021-03-11,Thiruvananthapuram,normal
+BARB19335534,Tarun Tiwari,M,Bank of Baroda,BARB,Fixed Deposit,Verified,2015-07-07,Lucknow,normal
+HDFC47308985,Jai Reddy,M,HDFC Bank,HDFC,Fixed Deposit,Re-KYC Due,2020-02-01,Kochi,normal
+CNRB96977837,Bhavna Rao,F,Canara Bank,CNRB,Joint,Expired,2015-10-20,Pune,normal
+ICIC60929647,Kunal Joshi,M,ICICI Bank,ICIC,Fixed Deposit,Expired,2018-01-10,Visakhapatnam,normal
+BARB14308421,Aarti Gupta,F,Bank of Baroda,BARB,Salary,Verified,2024-01-11,Jaipur,normal
+UBIN38538251,Vandana Tiwari,F,Union Bank of India,UBIN,NRI,Verified,2022-05-08,Nagpur,normal
+AXIS82340307,Deepa Chopra,F,Axis Bank,AXIS,Fixed Deposit,Pending Review,2017-12-12,Bhopal,normal
+BARB28566572,Vinod Garg,M,Bank of Baroda,BARB,NRI,Verified,2020-09-18,Delhi,normal
+HDFC90048665,Sanjay Joshi,M,HDFC Bank,HDFC,NRI,Verified,2015-09-18,Thiruvananthapuram,normal
+AXIS11540956,Girish Bajaj,M,Axis Bank,AXIS,Fixed Deposit,Verified,2022-08-18,Visakhapatnam,normal
+CNRB68353204,Rahul Iyer,M,Canara Bank,CNRB,NRI,Verified,2016-10-09,Jaipur,normal
+SBIN93926371,Deepak Pandey,M,State Bank of India,SBIN,Fixed Deposit,Pending Review,2018-05-07,Thiruvananthapuram,normal
+AXIS81182864,Bhavna Joshi,F,Axis Bank,AXIS,Joint,Verified,2015-01-03,Surat,normal
+CNRB42138745,Vandana Garg,F,Canara Bank,CNRB,Current,Pending Review,2015-08-26,Bangalore,normal
+AXIS26879290,Fatima Singh,F,Axis Bank,AXIS,Fixed Deposit,Verified,2016-06-09,Visakhapatnam,normal
+HDFC38427073,Gauri Vyas,F,HDFC Bank,HDFC,Fixed Deposit,Expired,2021-01-17,Kolkata,normal
+ICIC79467853,Vinod Garg,M,ICICI Bank,ICIC,Savings,Verified,2020-01-24,Ahmedabad,structuring_receiver
+AXIS40885476,Priya Upadhyay,F,Axis Bank,AXIS,Current,Verified,2021-08-07,Bangalore,normal
+SBIN14216175,Suresh Malhotra,M,State Bank of India,SBIN,Salary,Verified,2024-08-22,Vadodara,normal
+BARB82374753,Lata Oberoi,F,Bank of Baroda,BARB,Fixed Deposit,Pending Review,2016-06-25,Coimbatore,normal
+BARB22660194,Dhruv Jain,M,Bank of Baroda,BARB,Fixed Deposit,Verified,2016-02-02,Kochi,normal
+SBIN18135295,Ekta Gupta,F,State Bank of India,SBIN,Fixed Deposit,Verified,2019-07-08,Chennai,circular_flow
+ICIC28814949,Kavita Rathore,F,ICICI Bank,ICIC,Current,Verified,2019-09-25,Nagpur,normal
+ICIC83863413,Vandana Singh,F,ICICI Bank,ICIC,Savings,Expired,2016-02-06,Visakhapatnam,normal
+PNBK64547971,Ravi Chopra,M,Punjab National Bank,PNBK,NRI,Verified,2020-06-12,Indore,normal
+PSBN62401521,Anil Hegde,M,PSB National Bank,PSBN,NRI,Verified,2017-12-22,Bhopal,circular_flow
+PNBK35487660,Ishaan Oberoi,M,Punjab National Bank,PNBK,Current,Verified,2018-04-30,Coimbatore,normal
+PSBN16729990,Suresh Bhatt,M,PSB National Bank,PSBN,NRI,Pending Review,2021-07-20,Vadodara,normal
+PNBK19196777,Gauri Desai,F,Punjab National Bank,PNBK,Savings,Expired,2021-09-03,Ahmedabad,normal
+BARB87701200,Uma Tiwari,F,Bank of Baroda,BARB,Savings,Pending Review,2021-09-01,Bangalore,normal
+AXIS52462441,Isha Tiwari,F,Axis Bank,AXIS,Current,Expired,2017-12-04,Chandigarh,normal
+CNRB71367643,Chhaya Mehta,F,Canara Bank,CNRB,Savings,Verified,2018-07-19,Nagpur,normal
+SBIN82160068,Jatin Reddy,M,State Bank of India,SBIN,Joint,Verified,2017-05-23,Hyderabad,normal
+UBIN48250360,Karan Chopra,M,Union Bank of India,UBIN,NRI,Re-KYC Due,2016-10-08,Visakhapatnam,normal
+PSBN99639081,Mayank Qureshi,M,PSB National Bank,PSBN,Joint,Verified,2024-02-29,Chennai,normal
+SBIN24366125,Rohan Bajaj,M,State Bank of India,SBIN,Joint,Verified,2023-04-29,Jaipur,circular_flow
+BARB95125977,Kavita Chauhan,F,Bank of Baroda,BARB,Salary,Pending Review,2024-07-25,Surat,normal
+SBIN95132217,Vandana Gupta,F,State Bank of India,SBIN,Salary,Verified,2019-10-01,Mumbai,normal
+PNBK69302158,Deepa Bajaj,F,Punjab National Bank,PNBK,Fixed Deposit,Verified,2021-03-09,Visakhapatnam,normal
+AXIS14835614,Anita Nair,F,Axis Bank,AXIS,Salary,Pending Review,2024-05-11,Visakhapatnam,normal
+CNRB58942697,Deepa Kumar,F,Canara Bank,CNRB,Savings,Verified,2023-12-05,Kolkata,normal
+AXIS64543049,Mohan Dubey,M,Axis Bank,AXIS,Fixed Deposit,Verified,2021-12-17,Ahmedabad,normal
+PSBN34073380,Deepak Jain,M,PSB National Bank,PSBN,Salary,Re-KYC Due,2023-04-05,Bhopal,circular_flow
+PNBK24508349,Kunal Agarwal,M,Punjab National Bank,PNBK,Savings,Re-KYC Due,2019-04-16,Surat,normal
+UBIN50962024,Sarita Menon,F,Union Bank of India,UBIN,Current,Verified,2024-03-14,Mumbai,normal
+CNRB19317495,Vinod Chauhan,M,Canara Bank,CNRB,Salary,Verified,2023-09-03,Vadodara,normal
+UBIN13704481,Sarita Rathore,F,Union Bank of India,UBIN,Salary,Verified,2016-04-17,Coimbatore,layering
+SBIN90070438,Lakshman Kumar,M,State Bank of India,SBIN,Salary,Expired,2019-11-15,Chandigarh,normal
+HDFC87388337,Gauri Iyer,F,HDFC Bank,HDFC,Salary,Verified,2017-02-17,Bhopal,structuring_sender
+BARB58884978,Vandana Rathore,F,Bank of Baroda,BARB,Savings,Expired,2019-11-02,Chandigarh,normal
+AXIS51511484,Arjun Kapoor,M,Axis Bank,AXIS,NRI,Verified,2022-06-24,Indore,normal
+BARB66431351,Ishaan Mehta,M,Bank of Baroda,BARB,NRI,Expired,2022-06-16,Pune,normal
+AXIS10054484,Om Iyengar,M,Axis Bank,AXIS,Salary,Verified,2018-05-29,Bhopal,normal
+ICIC69295515,Lalit Bhatt,M,ICICI Bank,ICIC,Fixed Deposit,Verified,2019-12-17,Vadodara,normal
+CNRB79182797,Anil Desai,M,Canara Bank,CNRB,Fixed Deposit,Pending Review,2022-06-12,Chandigarh,normal
+CNRB40150759,Padma Chopra,F,Canara Bank,CNRB,Current,Verified,2024-01-17,Mumbai,normal
+SBIN71124923,Fatima Yadav,F,State Bank of India,SBIN,Fixed Deposit,Pending Review,2019-08-25,Kolkata,structuring_sender
+HDFC42747037,Uday Oberoi,M,HDFC Bank,HDFC,Fixed Deposit,Expired,2016-08-27,Mumbai,normal
+BARB33607110,Mohan Khanna,M,Bank of Baroda,BARB,Fixed Deposit,Pending Review,2024-01-07,Nagpur,normal
+ICIC27896471,Neha Iyer,F,ICICI Bank,ICIC,NRI,Expired,2023-12-27,Vadodara,normal
+ICIC92228802,Lalit Bhatt,M,ICICI Bank,ICIC,Fixed Deposit,Pending Review,2024-02-21,Bhopal,normal
+PNBK73709724,Ishaan Luthra,M,Punjab National Bank,PNBK,Salary,Re-KYC Due,2020-01-18,Ahmedabad,normal
+ICIC94120751,Manish Qureshi,M,ICICI Bank,ICIC,Salary,Verified,2017-09-06,Bangalore,normal
+UBIN52910691,Kunal Agarwal,M,Union Bank of India,UBIN,Savings,Verified,2021-01-21,Hyderabad,normal
+BARB18620650,Manju Nair,F,Bank of Baroda,BARB,NRI,Verified,2019-08-27,Visakhapatnam,normal
+HDFC62274692,Suresh Rao,M,HDFC Bank,HDFC,Joint,Expired,2023-08-20,Mumbai,normal
+ICIC10791358,Jatin Hegde,M,ICICI Bank,ICIC,Salary,Re-KYC Due,2018-12-11,Indore,normal
+AXIS90967191,Yash Rathore,M,Axis Bank,AXIS,NRI,Verified,2017-06-22,Jaipur,normal
+UBIN99774697,Priya Hegde,F,Union Bank of India,UBIN,NRI,Expired,2022-08-13,Pune,normal
+AXIS13619375,Rohan Yadav,M,Axis Bank,AXIS,Joint,Pending Review,2019-06-02,Mumbai,normal
+ICIC34391257,Disha Mehta,F,ICICI Bank,ICIC,Salary,Verified,2015-07-25,Chandigarh,normal
+HDFC47346970,Aarti Chauhan,F,HDFC Bank,HDFC,NRI,Verified,2023-06-08,Bangalore,normal
+UBIN40094589,Hemant Gupta,M,Union Bank of India,UBIN,Savings,Re-KYC Due,2022-04-16,Delhi,normal
+PSBN93394260,Kunal Das,M,PSB National Bank,PSBN,Current,Verified,2016-09-16,Surat,structuring_sender
+ICIC44392446,Jatin Rao,M,ICICI Bank,ICIC,Salary,Verified,2023-08-08,Thiruvananthapuram,normal
+CNRB24508768,Arjun Joshi,M,Canara Bank,CNRB,Savings,Verified,2021-06-28,Coimbatore,normal
+BARB20200074,Uday Iyengar,M,Bank of Baroda,BARB,Fixed Deposit,Re-KYC Due,2021-08-22,Ahmedabad,normal
+KOTK26247735,Padma Kapoor,F,Kotak Mahindra Bank,KOTK,Joint,Re-KYC Due,2023-12-06,Delhi,normal
+SBIN77908907,Disha Garg,F,State Bank of India,SBIN,Salary,Verified,2022-04-06,Bhopal,normal
+UBIN95306788,Mohan Khanna,M,Union Bank of India,UBIN,NRI,Expired,2024-04-17,Hyderabad,normal
+CNRB92666356,Nandini Qureshi,F,Canara Bank,CNRB,Joint,Re-KYC Due,2024-01-24,Surat,normal
+UBIN42949803,Kartik Agarwal,M,Union Bank of India,UBIN,Savings,Verified,2024-04-25,Nagpur,layering
+KOTK99682738,Ekta Tiwari,F,Kotak Mahindra Bank,KOTK,Salary,Verified,2019-04-02,Surat,normal
+BARB57623800,Deepak Oberoi,M,Bank of Baroda,BARB,Salary,Verified,2023-12-12,Jaipur,normal
+PSBN79340535,Manish Saxena,M,PSB National Bank,PSBN,Savings,Verified,2017-02-21,Bhopal,layering
+ICIC70152969,Kunal Naik,M,ICICI Bank,ICIC,Savings,Verified,2023-11-22,Lucknow,normal
+CNRB99115205,Manju Chopra,F,Canara Bank,CNRB,Salary,Verified,2021-07-10,Visakhapatnam,normal
+UBIN57219209,Ajay Saxena,M,Union Bank of India,UBIN,NRI,Verified,2022-11-18,Lucknow,normal
+UBIN26046365,Meena Das,F,Union Bank of India,UBIN,Joint,Re-KYC Due,2023-05-01,Pune,layering
+CNRB89133014,Nandini Naik,F,Canara Bank,CNRB,Joint,Pending Review,2023-07-11,Lucknow,normal
+BARB58436637,Gaurav Mishra,M,Bank of Baroda,BARB,Salary,Verified,2017-01-04,Visakhapatnam,circular_flow
+AXIS49209916,Sneha Gupta,F,Axis Bank,AXIS,Current,Expired,2017-02-26,Surat,dormant_reactivation
+CNRB73001391,Priya Tiwari,F,Canara Bank,CNRB,NRI,Verified,2020-05-14,Pune,normal
+SBIN18770247,Lakshman Naik,M,State Bank of India,SBIN,NRI,Verified,2019-06-30,Coimbatore,normal
+PNBK85543051,Suresh Nair,M,Punjab National Bank,PNBK,Savings,Verified,2018-05-29,Chennai,structuring_sender
+KOTK93002706,Yash Vyas,M,Kotak Mahindra Bank,KOTK,Joint,Verified,2016-03-02,Nagpur,dormant_reactivation
+HDFC50987442,Om Upadhyay,M,HDFC Bank,HDFC,Joint,Verified,2021-05-18,Thiruvananthapuram,normal
+BARB45520201,Mohan Rao,M,Bank of Baroda,BARB,Savings,Verified,2022-05-29,Ahmedabad,structuring_sender
+PSBN64830300,Anita Joshi,F,PSB National Bank,PSBN,Fixed Deposit,Pending Review,2020-01-20,Surat,layering
+CNRB70939053,Neha Mishra,F,Canara Bank,CNRB,Fixed Deposit,Verified,2015-10-19,Jaipur,normal
+HDFC25405014,Kartik Das,M,HDFC Bank,HDFC,Current,Expired,2021-02-08,Hyderabad,normal
+PSBN32269779,Sanjay Singh,M,PSB National Bank,PSBN,Salary,Pending Review,2023-11-21,Coimbatore,normal
+ICIC50814428,Bharat Iyer,M,ICICI Bank,ICIC,NRI,Verified,2022-11-06,Vadodara,layering
+KOTK15350023,Bharat Desai,M,Kotak Mahindra Bank,KOTK,NRI,Expired,2024-12-22,Chandigarh,normal
+BARB87201917,Amit Desai,M,Bank of Baroda,BARB,Savings,Re-KYC Due,2021-08-01,Jaipur,normal
+AXIS97444123,Deepak Naik,M,Axis Bank,AXIS,Salary,Verified,2019-12-17,Coimbatore,normal
+SBIN73083727,Sarita Oberoi,F,State Bank of India,SBIN,NRI,Verified,2018-11-26,Chandigarh,normal
+HDFC76500726,Anil Chauhan,M,HDFC Bank,HDFC,Fixed Deposit,Verified,2018-03-26,Visakhapatnam,normal
+CNRB53389073,Anita Bhatt,F,Canara Bank,CNRB,NRI,Re-KYC Due,2016-04-19,Vadodara,layering
+ICIC65465150,Rajesh Rathore,M,ICICI Bank,ICIC,Current,Pending Review,2015-08-11,Kochi,normal
+PSBN37321124,Eshan Luthra,M,PSB National Bank,PSBN,Joint,Verified,2017-12-29,Lucknow,circular_flow
+SBIN13874790,Manju Oberoi,F,State Bank of India,SBIN,Joint,Re-KYC Due,2022-01-24,Ahmedabad,normal
+PSBN84121929,Om Saxena,M,PSB National Bank,PSBN,Savings,Verified,2019-07-30,Chennai,circular_flow
+ICIC49172995,Arjun Nair,M,ICICI Bank,ICIC,Fixed Deposit,Verified,2020-09-15,Bhopal,normal
+ICIC83989546,Dhruv Chopra,M,ICICI Bank,ICIC,NRI,Verified,2016-08-15,Thiruvananthapuram,normal
+CNRB65692629,Rohan Singh,M,Canara Bank,CNRB,Joint,Verified,2018-10-24,Mumbai,normal
+KOTK98575748,Divya Upadhyay,F,Kotak Mahindra Bank,KOTK,Current,Verified,2020-06-28,Visakhapatnam,normal
+AXIS60628276,Rahul Saxena,M,Axis Bank,AXIS,Salary,Re-KYC Due,2020-02-09,Kolkata,normal
+HDFC41348220,Kunal Tiwari,M,HDFC Bank,HDFC,NRI,Verified,2024-08-07,Chandigarh,normal
+PNBK76481885,Uday Hegde,M,Punjab National Bank,PNBK,Current,Pending Review,2015-06-01,Coimbatore,normal
+SBIN80591959,Meena Luthra,F,State Bank of India,SBIN,Savings,Expired,2020-02-15,Hyderabad,normal
+SBIN73013961,Komal Nair,F,State Bank of India,SBIN,Salary,Verified,2023-10-07,Thiruvananthapuram,normal
+AXIS61003997,Ravi Chauhan,M,Axis Bank,AXIS,Fixed Deposit,Expired,2018-07-21,Surat,layering
+SBIN41510328,Vikram Yadav,M,State Bank of India,SBIN,Fixed Deposit,Verified,2022-01-29,Ahmedabad,normal
+SBIN69549527,Ajay Reddy,M,State Bank of India,SBIN,Fixed Deposit,Verified,2016-11-12,Mumbai,circular_flow
+CNRB58112135,Rachna Gupta,F,Canara Bank,CNRB,NRI,Verified,2019-03-16,Ahmedabad,normal
+PNBK33497411,Jatin Verma,M,Punjab National Bank,PNBK,Joint,Re-KYC Due,2015-11-20,Indore,normal
+KOTK29208935,Kunal Oberoi,M,Kotak Mahindra Bank,KOTK,NRI,Expired,2017-08-09,Jaipur,normal
+CNRB83363160,Rajesh Menon,M,Canara Bank,CNRB,Savings,Verified,2016-10-09,Kochi,normal
+CNRB71315464,Om Khanna,M,Canara Bank,CNRB,Salary,Verified,2024-06-24,Indore,normal
+HDFC86762164,Mohan Chopra,M,HDFC Bank,HDFC,Joint,Verified,2019-01-10,Lucknow,normal
+CNRB11086890,Sarita Iyengar,F,Canara Bank,CNRB,Fixed Deposit,Re-KYC Due,2021-05-07,Delhi,normal
+BARB91478884,Eshan Mishra,M,Bank of Baroda,BARB,Salary,Verified,2023-12-29,Kolkata,structuring_receiver
+PSBN51464269,Rohan Reddy,M,PSB National Bank,PSBN,NRI,Verified,2023-11-05,Coimbatore,normal
+CNRB53851498,Deepa Desai,F,Canara Bank,CNRB,NRI,Verified,2023-05-20,Kolkata,normal
+AXIS77349752,Heena Garg,F,Axis Bank,AXIS,Current,Verified,2018-01-21,Surat,structuring_receiver
+SBIN72858374,Nikhil Chauhan,M,State Bank of India,SBIN,Current,Re-KYC Due,2017-01-28,Ahmedabad,dormant_reactivation
+UBIN22120246,Vinod Saxena,M,Union Bank of India,UBIN,NRI,Verified,2023-11-13,Jaipur,normal
+CNRB88458327,Chetan Garg,M,Canara Bank,CNRB,Fixed Deposit,Verified,2019-04-10,Chennai,normal
+KOTK85350823,Dhruv Patel,M,Kotak Mahindra Bank,KOTK,Joint,Verified,2018-09-05,Bangalore,normal
+HDFC25659979,Chetan Kapoor,M,HDFC Bank,HDFC,Savings,Verified,2016-07-26,Lucknow,normal
+BARB82148284,Arjun Reddy,M,Bank of Baroda,BARB,NRI,Verified,2016-07-09,Kochi,normal
+KOTK30739712,Hemant Jain,M,Kotak Mahindra Bank,KOTK,NRI,Expired,2024-12-05,Chennai,normal
+CNRB14391105,Mayank Jain,M,Canara Bank,CNRB,Salary,Verified,2022-09-28,Nagpur,normal
+SBIN59302863,Neha Garg,F,State Bank of India,SBIN,Fixed Deposit,Verified,2021-02-08,Delhi,normal
+ICIC22304198,Kavita Iyer,F,ICICI Bank,ICIC,Current,Expired,2022-06-07,Thiruvananthapuram,layering
+BARB26901217,Suresh Chauhan,M,Bank of Baroda,BARB,Joint,Verified,2023-10-29,Bangalore,normal
+KOTK38984499,Ishaan Rao,M,Kotak Mahindra Bank,KOTK,Current,Verified,2024-02-13,Hyderabad,circular_flow
+CNRB29419691,Lalit Sharma,M,Canara Bank,CNRB,Joint,Verified,2016-06-16,Pune,normal
+PNBK11994519,Tanvi Patel,F,Punjab National Bank,PNBK,Current,Pending Review,2019-01-07,Chandigarh,normal
+PNBK66500369,Pooja Gupta,F,Punjab National Bank,PNBK,Savings,Expired,2020-11-24,Bangalore,normal
+KOTK24636981,Tarun Pandey,M,Kotak Mahindra Bank,KOTK,Joint,Verified,2020-01-26,Thiruvananthapuram,normal
+CNRB71477426,Rachna Qureshi,F,Canara Bank,CNRB,Savings,Verified,2022-03-20,Surat,normal
+ICIC69533928,Ajay Reddy,M,ICICI Bank,ICIC,Savings,Verified,2015-10-29,Thiruvananthapuram,normal
+KOTK94970119,Deepa Agarwal,F,Kotak Mahindra Bank,KOTK,Joint,Expired,2021-07-25,Chandigarh,normal
+CNRB70896652,Juhi Qureshi,F,Canara Bank,CNRB,Joint,Verified,2020-09-01,Chennai,normal
+BARB67723010,Arjun Saxena,M,Bank of Baroda,BARB,Current,Verified,2020-01-24,Chandigarh,normal
+SBIN51949529,Vinod Jain,M,State Bank of India,SBIN,Salary,Expired,2019-10-15,Jaipur,normal
+SBIN22243983,Deepa Naik,F,State Bank of India,SBIN,Savings,Verified,2024-04-29,Bhopal,normal
+PNBK84674816,Nandini Garg,F,Punjab National Bank,PNBK,Joint,Pending Review,2015-09-03,Visakhapatnam,circular_flow
+UBIN99300492,Meena Jain,F,Union Bank of India,UBIN,NRI,Re-KYC Due,2023-06-01,Delhi,normal
+UBIN23905032,Lalit Kapoor,M,Union Bank of India,UBIN,Joint,Verified,2021-06-25,Hyderabad,normal
+UBIN84660688,Jai Reddy,M,Union Bank of India,UBIN,Savings,Re-KYC Due,2019-02-14,Jaipur,normal
+KOTK92352411,Ajay Saxena,M,Kotak Mahindra Bank,KOTK,Fixed Deposit,Pending Review,2022-07-27,Mumbai,normal
+PNBK46677730,Manish Patel,M,Punjab National Bank,PNBK,Salary,Verified,2022-11-18,Kochi,normal
+KOTK98227303,Tanvi Nair,F,Kotak Mahindra Bank,KOTK,Savings,Verified,2019-06-30,Mumbai,normal
+HDFC66348963,Gauri Rao,F,HDFC Bank,HDFC,Salary,Verified,2020-02-02,Kochi,normal
+KOTK21402740,Aarti Tiwari,F,Kotak Mahindra Bank,KOTK,Savings,Verified,2024-11-27,Pune,normal
+CNRB69473616,Suresh Desai,M,Canara Bank,CNRB,NRI,Verified,2022-06-04,Thiruvananthapuram,normal
+AXIS25276327,Pooja Rao,F,Axis Bank,AXIS,NRI,Verified,2018-11-14,Lucknow,structuring_sender
+AXIS99541016,Kartik Oberoi,M,Axis Bank,AXIS,Savings,Verified,2018-06-17,Indore,layering
+BARB50455821,Suresh Sharma,M,Bank of Baroda,BARB,Current,Re-KYC Due,2017-05-15,Jaipur,circular_flow
+ICIC67801537,Meena Sharma,F,ICICI Bank,ICIC,Current,Verified,2016-12-20,Visakhapatnam,normal
+UBIN19673809,Farhan Saxena,M,Union Bank of India,UBIN,Fixed Deposit,Verified,2019-06-15,Bhopal,normal
+UBIN87277086,Vandana Singh,F,Union Bank of India,UBIN,Joint,Verified,2019-10-25,Bhopal,normal
+UBIN33068427,Chhaya Patel,F,Union Bank of India,UBIN,Joint,Verified,2023-12-27,Kochi,normal
+BARB68475513,Tanvi Reddy,F,Bank of Baroda,BARB,NRI,Pending Review,2021-08-09,Bangalore,normal
+BARB54703713,Divya Chauhan,F,Bank of Baroda,BARB,Current,Verified,2023-09-27,Vadodara,normal
+BARB56892354,Girish Pandey,M,Bank of Baroda,BARB,Fixed Deposit,Re-KYC Due,2018-12-09,Hyderabad,normal
+BARB33286644,Deepa Bajaj,F,Bank of Baroda,BARB,Current,Re-KYC Due,2021-10-03,Bangalore,structuring_sender
+ICIC85663295,Padma Oberoi,F,ICICI Bank,ICIC,Joint,Verified,2023-07-10,Coimbatore,normal
+UBIN30261159,Mayank Bhatt,M,Union Bank of India,UBIN,Savings,Verified,2019-12-07,Nagpur,normal
+PSBN57236885,Manish Upadhyay,M,PSB National Bank,PSBN,Savings,Verified,2020-09-09,Nagpur,normal
+CNRB20298660,Suresh Garg,M,Canara Bank,CNRB,Savings,Pending Review,2022-03-25,Thiruvananthapuram,circular_flow
+AXIS15505975,Chetan Upadhyay,M,Axis Bank,AXIS,Joint,Expired,2020-01-17,Kolkata,normal
+PNBK18304547,Fatima Pandey,F,Punjab National Bank,PNBK,Savings,Re-KYC Due,2020-01-20,Chandigarh,circular_flow
+PNBK15253567,Ravi Pandey,M,Punjab National Bank,PNBK,Fixed Deposit,Verified,2017-10-11,Nagpur,normal
+UBIN60043345,Mayank Joshi,M,Union Bank of India,UBIN,NRI,Verified,2018-03-04,Chandigarh,normal
+SBIN54250344,Suresh Chauhan,M,State Bank of India,SBIN,Joint,Expired,2016-01-23,Indore,normal
+PNBK54743095,Nandini Vyas,F,Punjab National Bank,PNBK,Joint,Expired,2015-11-30,Hyderabad,normal
+PNBK89865081,Om Iyengar,M,Punjab National Bank,PNBK,Savings,Verified,2022-12-13,Visakhapatnam,normal
+PNBK99941500,Rachna Chauhan,F,Punjab National Bank,PNBK,Fixed Deposit,Expired,2022-11-18,Vadodara,normal
+AXIS58563745,Lata Khanna,F,Axis Bank,AXIS,Salary,Verified,2015-03-16,Pune,normal
+BARB40406092,Rahul Oberoi,M,Bank of Baroda,BARB,Current,Verified,2016-07-17,Lucknow,normal
+AXIS80669879,Mohan Pandey,M,Axis Bank,AXIS,Fixed Deposit,Verified,2015-06-04,Thiruvananthapuram,normal
+PNBK34272734,Chhaya Nair,F,Punjab National Bank,PNBK,Fixed Deposit,Re-KYC Due,2024-04-28,Thiruvananthapuram,structuring_receiver
+PSBN65144509,Anil Luthra,M,PSB National Bank,PSBN,Fixed Deposit,Expired,2019-02-01,Ahmedabad,normal
+ICIC41407343,Mayank Mishra,M,ICICI Bank,ICIC,Current,Verified,2020-12-27,Surat,normal
+KOTK69135982,Gaurav Garg,M,Kotak Mahindra Bank,KOTK,Salary,Re-KYC Due,2020-03-06,Indore,normal
+BARB91156554,Yash Joshi,M,Bank of Baroda,BARB,Salary,Verified,2016-07-20,Surat,normal
+AXIS26733967,Ishaan Reddy,M,Axis Bank,AXIS,Savings,Re-KYC Due,2018-03-13,Pune,normal
+PNBK68716573,Uma Pandey,F,Punjab National Bank,PNBK,Current,Re-KYC Due,2016-01-11,Nagpur,normal
+PSBN63211150,Amit Jain,M,PSB National Bank,PSBN,Salary,Verified,2020-08-18,Indore,normal
+PSBN52773159,Tarun Malhotra,M,PSB National Bank,PSBN,Fixed Deposit,Expired,2016-02-10,Chandigarh,normal
+CNRB73411827,Rohan Kumar,M,Canara Bank,CNRB,Current,Re-KYC Due,2022-10-22,Surat,normal
+PSBN44349528,Priya Desai,F,PSB National Bank,PSBN,Current,Pending Review,2017-06-02,Thiruvananthapuram,normal
+BARB50419829,Arjun Mishra,M,Bank of Baroda,BARB,Savings,Verified,2016-05-14,Bhopal,circular_flow
+SBIN24879094,Mayank Menon,M,State Bank of India,SBIN,NRI,Pending Review,2024-05-20,Visakhapatnam,normal
+BARB29270557,Gauri Tiwari,F,Bank of Baroda,BARB,NRI,Verified,2018-04-08,Thiruvananthapuram,normal
+PNBK99170406,Isha Jain,F,Punjab National Bank,PNBK,Savings,Pending Review,2022-06-30,Kochi,normal
+AXIS78131950,Gauri Rathore,F,Axis Bank,AXIS,Savings,Verified,2021-03-19,Surat,normal
+CNRB12179995,Chhaya Garg,F,Canara Bank,CNRB,Savings,Verified,2019-01-02,Ahmedabad,normal
+UBIN27905932,Mohan Upadhyay,M,Union Bank of India,UBIN,Salary,Pending Review,2015-07-01,Chandigarh,layering
+ICIC94790150,Deepak Menon,M,ICICI Bank,ICIC,Current,Verified,2017-01-16,Nagpur,normal
+BARB15624520,Kavita Kumar,F,Bank of Baroda,BARB,Salary,Pending Review,2018-07-16,Indore,normal
+CNRB14915156,Hemant Naik,M,Canara Bank,CNRB,Fixed Deposit,Verified,2023-06-13,Lucknow,normal
+UBIN46670512,Padma Gupta,F,Union Bank of India,UBIN,Salary,Verified,2017-03-16,Indore,dormant_reactivation
+PNBK76599269,Uday Chauhan,M,Punjab National Bank,PNBK,NRI,Verified,2022-10-05,Vadodara,normal
+SBIN67795113,Anita Khanna,F,State Bank of India,SBIN,Current,Pending Review,2021-10-03,Lucknow,normal
+CNRB51137177,Anita Bhatt,F,Canara Bank,CNRB,Joint,Expired,2020-01-01,Bhopal,circular_flow
+ICIC15684813,Ekta Dubey,F,ICICI Bank,ICIC,Salary,Pending Review,2023-02-25,Bhopal,normal
+SBIN95565484,Rachna Gupta,F,State Bank of India,SBIN,Salary,Pending Review,2017-05-13,Pune,dormant_reactivation
+ICIC14670638,Sanjay Vyas,M,ICICI Bank,ICIC,Savings,Verified,2016-06-01,Kochi,normal
+KOTK30594121,Isha Kumar,F,Kotak Mahindra Bank,KOTK,NRI,Verified,2022-08-13,Kochi,normal
+PNBK81062902,Anita Tiwari,F,Punjab National Bank,PNBK,NRI,Verified,2019-02-12,Jaipur,normal
+PNBK76980546,Meena Patel,F,Punjab National Bank,PNBK,NRI,Pending Review,2020-10-21,Chennai,normal
+BARB92124765,Pooja Luthra,F,Bank of Baroda,BARB,Fixed Deposit,Verified,2018-03-15,Kolkata,layering
+ICIC33173544,Tanvi Singh,F,ICICI Bank,ICIC,NRI,Verified,2022-12-31,Chandigarh,structuring_sender
+AXIS48971765,Karan Saxena,M,Axis Bank,AXIS,Salary,Re-KYC Due,2024-12-29,Pune,normal
+AXIS40097200,Deepak Garg,M,Axis Bank,AXIS,Current,Re-KYC Due,2016-05-12,Hyderabad,normal
+UBIN84359498,Fatima Patel,F,Union Bank of India,UBIN,Salary,Verified,2021-06-02,Visakhapatnam,normal
+SBIN51512297,Uma Desai,F,State Bank of India,SBIN,Fixed Deposit,Expired,2019-06-19,Surat,normal
+SBIN26821075,Yash Tiwari,M,State Bank of India,SBIN,Fixed Deposit,Verified,2018-07-22,Nagpur,structuring_receiver
+PNBK83994695,Girish Dubey,M,Punjab National Bank,PNBK,Joint,Verified,2022-03-05,Hyderabad,normal
+SBIN79538491,Vandana Gupta,F,State Bank of India,SBIN,Salary,Verified,2016-09-18,Pune,normal
+UBIN79645282,Manju Malhotra,F,Union Bank of India,UBIN,Savings,Verified,2018-03-09,Kolkata,normal
+PNBK93889081,Ishaan Agarwal,M,Punjab National Bank,PNBK,Joint,Pending Review,2018-05-25,Bangalore,normal
+KOTK30695604,Anil Upadhyay,M,Kotak Mahindra Bank,KOTK,Fixed Deposit,Pending Review,2016-12-02,Thiruvananthapuram,normal
+PSBN13808225,Vandana Tiwari,F,PSB National Bank,PSBN,Savings,Expired,2015-11-29,Coimbatore,normal
+HDFC92961108,Kavita Tiwari,F,HDFC Bank,HDFC,Savings,Verified,2022-03-02,Visakhapatnam,normal
+BARB64504816,Divya Naik,F,Bank of Baroda,BARB,NRI,Verified,2018-05-03,Delhi,normal
+ICIC37383505,Disha Naik,F,ICICI Bank,ICIC,Joint,Verified,2018-10-25,Chandigarh,normal
+HDFC27551135,Pankaj Dubey,M,HDFC Bank,HDFC,Salary,Pending Review,2023-07-13,Visakhapatnam,normal
+SBIN45899440,Neha Menon,F,State Bank of India,SBIN,Current,Verified,2020-01-16,Chennai,normal
+HDFC43322272,Chhaya Yadav,F,HDFC Bank,HDFC,Current,Re-KYC Due,2024-09-14,Chandigarh,normal
+PNBK76876068,Pankaj Das,M,Punjab National Bank,PNBK,NRI,Verified,2020-10-09,Lucknow,normal
+AXIS71368457,Ravi Iyengar,M,Axis Bank,AXIS,Current,Pending Review,2017-09-13,Kochi,normal
+KOTK97813295,Divya Oberoi,F,Kotak Mahindra Bank,KOTK,NRI,Verified,2022-07-17,Visakhapatnam,normal
+PNBK45496951,Meena Khanna,F,Punjab National Bank,PNBK,Salary,Re-KYC Due,2023-02-27,Indore,normal
+KOTK85405783,Chhaya Gupta,F,Kotak Mahindra Bank,KOTK,Salary,Pending Review,2017-03-08,Lucknow,normal
+AXIS47543473,Gauri Luthra,F,Axis Bank,AXIS,Joint,Expired,2024-04-03,Thiruvananthapuram,normal
+UBIN55511258,Meena Iyengar,F,Union Bank of India,UBIN,Salary,Re-KYC Due,2021-04-03,Hyderabad,normal
+AXIS15402922,Gauri Iyengar,F,Axis Bank,AXIS,Savings,Verified,2015-07-05,Chandigarh,normal
+PNBK91370909,Girish Menon,M,Punjab National Bank,PNBK,Current,Verified,2020-10-12,Thiruvananthapuram,normal
+CNRB89688374,Chhaya Yadav,F,Canara Bank,CNRB,Joint,Re-KYC Due,2018-10-09,Vadodara,normal
+ICIC12232974,Jatin Kapoor,M,ICICI Bank,ICIC,Salary,Expired,2019-02-17,Chennai,normal
+PSBN90115852,Kartik Kapoor,M,PSB National Bank,PSBN,Salary,Expired,2020-04-27,Coimbatore,normal
+ICIC32885741,Suresh Upadhyay,M,ICICI Bank,ICIC,Fixed Deposit,Expired,2020-11-17,Thiruvananthapuram,circular_flow
+BARB14237322,Uday Nair,M,Bank of Baroda,BARB,Fixed Deposit,Verified,2021-06-03,Kolkata,layering
+PNBK65426567,Aarti Jain,F,Punjab National Bank,PNBK,Current,Verified,2022-09-29,Vadodara,normal
+PNBK79616482,Dhruv Gupta,M,Punjab National Bank,PNBK,Joint,Verified,2017-04-29,Surat,normal
+ICIC81555103,Pankaj Verma,M,ICICI Bank,ICIC,Joint,Verified,2018-11-03,Jaipur,normal
+CNRB84905122,Gaurav Chopra,M,Canara Bank,CNRB,Current,Verified,2018-05-07,Lucknow,normal
+ICIC56815569,Eshan Bhatt,M,ICICI Bank,ICIC,Fixed Deposit,Verified,2021-04-14,Lucknow,structuring_sender
+HDFC62953249,Lata Rathore,F,HDFC Bank,HDFC,Salary,Re-KYC Due,2024-03-06,Hyderabad,normal
+UBIN69374716,Divya Desai,F,Union Bank of India,UBIN,Salary,Expired,2022-05-10,Surat,normal
+CNRB85432781,Sarita Rathore,F,Canara Bank,CNRB,Salary,Verified,2022-10-22,Chennai,normal
+BARB16813620,Kartik Chopra,M,Bank of Baroda,BARB,Joint,Verified,2022-07-06,Ahmedabad,normal
+ICIC23494908,Disha Chauhan,F,ICICI Bank,ICIC,Current,Verified,2022-08-22,Visakhapatnam,normal
+ICIC74082055,Anil Jain,M,ICICI Bank,ICIC,Current,Re-KYC Due,2022-04-18,Lucknow,normal
+SBIN97550053,Komal Gupta,F,State Bank of India,SBIN,Current,Pending Review,2021-06-09,Delhi,normal
+PNBK14877451,Deepak Jain,M,Punjab National Bank,PNBK,NRI,Re-KYC Due,2024-05-18,Surat,normal
+PSBN11243818,Nandini Mishra,F,PSB National Bank,PSBN,Joint,Pending Review,2018-05-07,Chennai,normal
+ICIC96075494,Rahul Mishra,M,ICICI Bank,ICIC,Joint,Verified,2021-02-03,Hyderabad,normal
+BARB25119192,Chetan Agarwal,M,Bank of Baroda,BARB,Current,Expired,2018-09-16,Nagpur,normal
+UBIN49597485,Deepak Sharma,M,Union Bank of India,UBIN,Fixed Deposit,Re-KYC Due,2021-05-14,Kolkata,normal
+HDFC79159799,Tanvi Iyengar,F,HDFC Bank,HDFC,Savings,Verified,2018-09-05,Chennai,normal
+UBIN43292316,Deepa Naik,F,Union Bank of India,UBIN,Salary,Verified,2015-01-28,Ahmedabad,normal
+CNRB88176558,Pooja Chauhan,F,Canara Bank,CNRB,Joint,Verified,2023-02-08,Jaipur,structuring_sender
+SBIN72464258,Kunal Gupta,M,State Bank of India,SBIN,Current,Verified,2018-06-10,Vadodara,normal
+CNRB59330907,Om Iyer,M,Canara Bank,CNRB,Current,Verified,2021-11-22,Hyderabad,normal
+UBIN65813853,Chetan Vyas,M,Union Bank of India,UBIN,Joint,Verified,2022-11-15,Visakhapatnam,normal
+KOTK20988446,Harsh Chopra,M,Kotak Mahindra Bank,KOTK,NRI,Pending Review,2020-11-22,Kochi,normal
+PSBN83504237,Isha Iyer,F,PSB National Bank,PSBN,Current,Pending Review,2020-09-01,Visakhapatnam,normal
+ICIC25601471,Aarti Qureshi,F,ICICI Bank,ICIC,Current,Expired,2022-08-18,Coimbatore,normal
+PSBN70858653,Farhan Luthra,M,PSB National Bank,PSBN,Joint,Verified,2016-06-24,Nagpur,circular_flow
+CNRB12921981,Ishaan Menon,M,Canara Bank,CNRB,Salary,Re-KYC Due,2019-06-10,Mumbai,normal
+PSBN66867700,Kartik Singh,M,PSB National Bank,PSBN,Fixed Deposit,Verified,2018-11-12,Visakhapatnam,normal
+PSBN48532662,Karan Naik,M,PSB National Bank,PSBN,Current,Re-KYC Due,2019-08-02,Hyderabad,normal
+HDFC70201634,Yash Garg,M,HDFC Bank,HDFC,NRI,Verified,2024-10-01,Bangalore,normal
+UBIN25922674,Hemant Mehta,M,Union Bank of India,UBIN,Joint,Verified,2017-01-01,Vadodara,layering
+PSBN50045602,Neha Sharma,F,PSB National Bank,PSBN,Fixed Deposit,Expired,2020-03-11,Visakhapatnam,normal
+BARB71824078,Chhaya Malhotra,F,Bank of Baroda,BARB,Current,Verified,2018-11-18,Kolkata,normal
+HDFC92533595,Arjun Kumar,M,HDFC Bank,HDFC,Savings,Verified,2023-08-04,Kolkata,normal
+ICIC90233330,Juhi Kumar,F,ICICI Bank,ICIC,Fixed Deposit,Re-KYC Due,2022-07-15,Delhi,normal
+ICIC41452485,Sneha Iyengar,F,ICICI Bank,ICIC,Current,Re-KYC Due,2021-01-19,Delhi,normal
+KOTK52802529,Divya Malhotra,F,Kotak Mahindra Bank,KOTK,Joint,Re-KYC Due,2021-06-23,Chandigarh,normal
+AXIS39667854,Uma Nair,F,Axis Bank,AXIS,Salary,Verified,2019-08-21,Delhi,circular_flow
+HDFC84605013,Kartik Verma,M,HDFC Bank,HDFC,Savings,Verified,2020-07-23,Indore,normal
+HDFC30027648,Pankaj Jain,M,HDFC Bank,HDFC,NRI,Verified,2018-05-13,Visakhapatnam,normal
+PNBK72146184,Jai Kapoor,M,Punjab National Bank,PNBK,Joint,Verified,2015-08-25,Bhopal,layering
+BARB44224936,Rohan Hegde,M,Bank of Baroda,BARB,Salary,Expired,2017-04-12,Bangalore,normal
+AXIS35566010,Tarun Desai,M,Axis Bank,AXIS,Salary,Verified,2015-07-31,Thiruvananthapuram,normal
+KOTK85007641,Karan Das,M,Kotak Mahindra Bank,KOTK,NRI,Verified,2016-08-22,Chandigarh,dormant_reactivation
+BARB35504548,Vandana Sharma,F,Bank of Baroda,BARB,Savings,Expired,2023-04-26,Surat,layering
+HDFC42122457,Lalit Rao,M,HDFC Bank,HDFC,Salary,Re-KYC Due,2021-03-11,Lucknow,structuring_receiver
+CNRB45106207,Heena Dubey,F,Canara Bank,CNRB,Joint,Verified,2019-01-13,Nagpur,normal
+UBIN37263310,Nandini Naik,F,Union Bank of India,UBIN,Salary,Verified,2019-02-27,Delhi,normal
+PSBN45000508,Jai Nair,M,PSB National Bank,PSBN,Joint,Pending Review,2021-03-16,Bhopal,normal
+BARB60981231,Kavita Chauhan,F,Bank of Baroda,BARB,Current,Verified,2021-05-22,Visakhapatnam,normal
+ICIC96126771,Rahul Bajaj,M,ICICI Bank,ICIC,NRI,Verified,2023-04-18,Pune,normal
+PNBK83356206,Sachin Joshi,M,Punjab National Bank,PNBK,Current,Pending Review,2020-06-23,Delhi,normal
+PSBN65350347,Karan Gupta,M,PSB National Bank,PSBN,Fixed Deposit,Verified,2016-07-17,Bangalore,normal
+AXIS71204580,Rajesh Rao,M,Axis Bank,AXIS,Savings,Pending Review,2019-03-09,Thiruvananthapuram,normal
+PSBN81432350,Eshan Patel,M,PSB National Bank,PSBN,NRI,Verified,2021-03-09,Mumbai,normal
+CNRB12300840,Manish Rathore,M,Canara Bank,CNRB,Fixed Deposit,Expired,2020-08-19,Bhopal,normal
+SBIN80381817,Deepak Reddy,M,State Bank of India,SBIN,Current,Verified,2016-09-01,Thiruvananthapuram,normal
+HDFC20605783,Sachin Agarwal,M,HDFC Bank,HDFC,NRI,Verified,2019-03-09,Coimbatore,normal
+CNRB20820219,Manju Malhotra,F,Canara Bank,CNRB,Fixed Deposit,Re-KYC Due,2022-05-01,Delhi,structuring_sender
+AXIS73888323,Chhaya Hegde,F,Axis Bank,AXIS,Fixed Deposit,Verified,2015-08-18,Pune,normal
+UBIN85947990,Tanvi Khanna,F,Union Bank of India,UBIN,Savings,Pending Review,2024-08-15,Delhi,normal
+ICIC46385762,Uma Tiwari,F,ICICI Bank,ICIC,Savings,Expired,2015-07-10,Jaipur,normal
+PNBK52209421,Jatin Kumar,M,Punjab National Bank,PNBK,Current,Pending Review,2015-03-06,Hyderabad,normal
+CNRB31803703,Vinod Singh,M,Canara Bank,CNRB,Current,Pending Review,2015-12-16,Indore,dormant_reactivation
+HDFC28783850,Hemant Chauhan,M,HDFC Bank,HDFC,Fixed Deposit,Expired,2023-11-12,Bangalore,normal
+SBIN68664992,Sachin Gupta,M,State Bank of India,SBIN,Savings,Verified,2017-08-08,Thiruvananthapuram,normal
+UBIN13976288,Lalit Iyengar,M,Union Bank of India,UBIN,Salary,Re-KYC Due,2022-02-10,Nagpur,normal
+HDFC67961650,Sachin Saxena,M,HDFC Bank,HDFC,Fixed Deposit,Pending Review,2017-01-30,Indore,normal
+BARB19865900,Juhi Mishra,F,Bank of Baroda,BARB,Salary,Verified,2015-12-03,Indore,normal
+UBIN58412365,Sanjay Hegde,M,Union Bank of India,UBIN,Savings,Verified,2016-03-12,Lucknow,normal
+SBIN27784789,Padma Agarwal,F,State Bank of India,SBIN,Current,Verified,2015-12-24,Nagpur,normal
+SBIN13524813,Farhan Jain,M,State Bank of India,SBIN,Salary,Pending Review,2016-01-03,Bangalore,normal
+PSBN49171088,Pankaj Hegde,M,PSB National Bank,PSBN,NRI,Re-KYC Due,2019-08-22,Bangalore,normal
+KOTK79941466,Ishaan Chopra,M,Kotak Mahindra Bank,KOTK,Fixed Deposit,Verified,2016-11-25,Pune,normal
+ICIC29587040,Divya Agarwal,F,ICICI Bank,ICIC,Current,Verified,2015-09-17,Jaipur,normal
+UBIN43782566,Fatima Singh,F,Union Bank of India,UBIN,Fixed Deposit,Expired,2017-10-07,Surat,structuring_sender
+SBIN28185096,Gaurav Menon,M,State Bank of India,SBIN,Savings,Verified,2018-06-01,Chandigarh,normal
+ICIC54927535,Uday Chauhan,M,ICICI Bank,ICIC,Fixed Deposit,Pending Review,2019-10-30,Hyderabad,normal
+ICIC52168966,Juhi Das,F,ICICI Bank,ICIC,NRI,Verified,2016-12-28,Lucknow,normal
+BARB53739710,Eshan Tiwari,M,Bank of Baroda,BARB,Salary,Re-KYC Due,2019-03-21,Indore,normal
+BARB89487366,Vandana Tiwari,F,Bank of Baroda,BARB,Current,Expired,2021-02-12,Visakhapatnam,circular_flow
+BARB68848427,Nandini Menon,F,Bank of Baroda,BARB,Salary,Re-KYC Due,2023-12-12,Bangalore,normal
+PNBK95004924,Yash Oberoi,M,Punjab National Bank,PNBK,Current,Verified,2018-05-25,Hyderabad,circular_flow
+ICIC90253323,Uday Singh,M,ICICI Bank,ICIC,Joint,Verified,2020-05-16,Visakhapatnam,normal
+PSBN58255231,Yash Rathore,M,PSB National Bank,PSBN,Joint,Pending Review,2022-11-13,Bangalore,normal
+PNBK96838849,Neha Dubey,F,Punjab National Bank,PNBK,Savings,Pending Review,2021-11-14,Indore,layering
+SBIN11415698,Rahul Khanna,M,State Bank of India,SBIN,Salary,Verified,2016-02-08,Vadodara,normal
+KOTK39666377,Ishaan Upadhyay,M,Kotak Mahindra Bank,KOTK,Salary,Verified,2019-12-31,Nagpur,circular_flow
+PNBK56300738,Kartik Pandey,M,Punjab National Bank,PNBK,NRI,Verified,2015-04-11,Lucknow,normal
+PNBK56751880,Anita Iyer,F,Punjab National Bank,PNBK,Salary,Verified,2018-07-01,Kolkata,layering
+SBIN68809636,Sachin Naik,M,State Bank of India,SBIN,Fixed Deposit,Verified,2023-02-05,Chandigarh,structuring_sender
+PSBN56047142,Sneha Iyer,F,PSB National Bank,PSBN,Savings,Expired,2022-04-08,Pune,circular_flow
+PNBK84076145,Kunal Qureshi,M,Punjab National Bank,PNBK,Salary,Pending Review,2016-10-17,Bhopal,normal
+PNBK35016429,Jai Iyengar,M,Punjab National Bank,PNBK,Fixed Deposit,Verified,2022-03-08,Indore,layering
+ICIC89484162,Juhi Das,F,ICICI Bank,ICIC,NRI,Verified,2019-10-26,Kolkata,normal
+KOTK23656928,Padma Singh,F,Kotak Mahindra Bank,KOTK,Joint,Verified,2023-12-19,Kochi,circular_flow
+CNRB75697427,Ekta Iyer,F,Canara Bank,CNRB,Fixed Deposit,Verified,2020-12-01,Thiruvananthapuram,layering
+SBIN56697654,Chhaya Upadhyay,F,State Bank of India,SBIN,NRI,Pending Review,2018-12-12,Pune,normal
+KOTK21375216,Om Yadav,M,Kotak Mahindra Bank,KOTK,Current,Verified,2022-07-15,Chennai,normal
+UBIN28972822,Meena Verma,F,Union Bank of India,UBIN,NRI,Verified,2020-09-23,Thiruvananthapuram,normal
+PNBK75319770,Chhaya Khanna,F,Punjab National Bank,PNBK,Joint,Expired,2022-02-16,Pune,normal
+PNBK35111946,Eshan Mishra,M,Punjab National Bank,PNBK,NRI,Pending Review,2018-07-12,Delhi,circular_flow
+PNBK36189702,Rajesh Oberoi,M,Punjab National Bank,PNBK,NRI,Pending Review,2024-02-22,Vadodara,normal
+HDFC69572772,Yash Oberoi,M,HDFC Bank,HDFC,Current,Verified,2020-06-24,Coimbatore,normal
+CNRB14388260,Padma Malhotra,F,Canara Bank,CNRB,Current,Pending Review,2018-01-30,Lucknow,normal
+ICIC83782999,Ekta Tiwari,F,ICICI Bank,ICIC,Savings,Pending Review,2020-09-23,Chennai,normal
+AXIS15584869,Heena Garg,F,Axis Bank,AXIS,Fixed Deposit,Verified,2023-07-10,Visakhapatnam,normal
+BARB49957816,Disha Reddy,F,Bank of Baroda,BARB,Savings,Verified,2024-10-23,Jaipur,normal
+ICIC25755285,Sarita Desai,F,ICICI Bank,ICIC,Current,Verified,2023-09-12,Coimbatore,normal
+PNBK92698414,Mayank Khanna,M,Punjab National Bank,PNBK,Current,Re-KYC Due,2016-07-24,Kolkata,normal
+AXIS47726592,Jatin Dubey,M,Axis Bank,AXIS,Joint,Verified,2021-09-10,Chandigarh,normal
+KOTK45882178,Nikhil Mishra,M,Kotak Mahindra Bank,KOTK,Joint,Expired,2024-08-15,Chennai,normal
+PSBN47221734,Padma Jain,F,PSB National Bank,PSBN,Fixed Deposit,Verified,2024-09-21,Hyderabad,normal
+BARB62707402,Manju Bhatt,F,Bank of Baroda,BARB,Current,Pending Review,2020-06-27,Jaipur,normal
+SBIN95044078,Uday Luthra,M,State Bank of India,SBIN,Savings,Verified,2023-11-29,Vadodara,normal
+ICIC53928023,Tarun Menon,M,ICICI Bank,ICIC,Savings,Re-KYC Due,2021-07-11,Bangalore,normal
+SBIN81729237,Chetan Dubey,M,State Bank of India,SBIN,Current,Verified,2019-06-18,Kolkata,normal
+UBIN83458776,Pankaj Mishra,M,Union Bank of India,UBIN,Current,Pending Review,2021-06-25,Surat,normal
+SBIN94044392,Suresh Kumar,M,State Bank of India,SBIN,NRI,Verified,2023-10-16,Chennai,normal
+ICIC10090721,Anil Luthra,M,ICICI Bank,ICIC,Current,Expired,2019-10-19,Hyderabad,normal
+CNRB22527880,Om Joshi,M,Canara Bank,CNRB,Salary,Verified,2022-05-05,Bangalore,normal
+PSBN63196064,Uma Joshi,F,PSB National Bank,PSBN,Salary,Expired,2022-01-06,Ahmedabad,normal
+PSBN38644905,Anita Reddy,F,PSB National Bank,PSBN,Savings,Verified,2020-05-07,Coimbatore,normal
+PSBN11082139,Lata Luthra,F,PSB National Bank,PSBN,Salary,Re-KYC Due,2022-10-20,Chennai,normal
+ICIC19506414,Ajay Mehta,M,ICICI Bank,ICIC,NRI,Verified,2017-07-26,Chennai,normal
+PNBK61367949,Bhavna Kapoor,F,Punjab National Bank,PNBK,Current,Expired,2016-08-24,Hyderabad,dormant_reactivation
+KOTK97244236,Isha Sharma,F,Kotak Mahindra Bank,KOTK,NRI,Verified,2016-11-03,Kolkata,normal
+KOTK69375757,Sanjay Jain,M,Kotak Mahindra Bank,KOTK,Current,Verified,2024-08-23,Chennai,normal
+HDFC57182314,Meena Upadhyay,F,HDFC Bank,HDFC,Salary,Re-KYC Due,2019-10-25,Hyderabad,normal
+BARB84275638,Komal Desai,F,Bank of Baroda,BARB,Joint,Expired,2021-09-27,Thiruvananthapuram,normal
+CNRB37574457,Manju Patel,F,Canara Bank,CNRB,Joint,Pending Review,2020-10-21,Kolkata,normal
+BARB76422705,Nikhil Gupta,M,Bank of Baroda,BARB,Savings,Verified,2019-04-30,Surat,normal
+PSBN58465780,Karan Qureshi,M,PSB National Bank,PSBN,Current,Verified,2018-07-20,Coimbatore,normal
+ICIC19796799,Heena Verma,F,ICICI Bank,ICIC,Joint,Verified,2015-03-10,Mumbai,circular_flow
+HDFC77996124,Sneha Gupta,F,HDFC Bank,HDFC,Fixed Deposit,Expired,2018-03-19,Vadodara,normal
+SBIN95971459,Ajay Iyengar,M,State Bank of India,SBIN,Joint,Pending Review,2021-01-06,Hyderabad,layering
+AXIS37272705,Divya Desai,F,Axis Bank,AXIS,Current,Pending Review,2024-01-23,Chandigarh,normal
+CNRB68718382,Komal Singh,F,Canara Bank,CNRB,Current,Verified,2023-03-09,Ahmedabad,normal
+ICIC92181084,Disha Iyer,F,ICICI Bank,ICIC,Savings,Verified,2021-10-29,Pune,normal
+PSBN31989243,Manju Mehta,F,PSB National Bank,PSBN,Salary,Pending Review,2020-07-26,Vadodara,normal
+UBIN27036337,Lakshman Joshi,M,Union Bank of India,UBIN,Salary,Expired,2023-05-30,Chennai,normal
+HDFC46504617,Amit Chauhan,M,HDFC Bank,HDFC,Savings,Verified,2020-11-15,Coimbatore,normal
+AXIS58335011,Eshan Menon,M,Axis Bank,AXIS,NRI,Re-KYC Due,2015-08-16,Coimbatore,normal
+SBIN87029205,Sunita Bajaj,F,State Bank of India,SBIN,Fixed Deposit,Verified,2022-07-24,Ahmedabad,normal
+PSBN42823140,Rajesh Kumar,M,PSB National Bank,PSBN,NRI,Verified,2015-07-08,Indore,normal
+AXIS98007006,Deepak Kumar,M,Axis Bank,AXIS,Current,Verified,2019-09-14,Ahmedabad,normal
+CNRB20453825,Nandini Bhatt,F,Canara Bank,CNRB,Salary,Verified,2021-05-30,Vadodara,layering
+BARB79226031,Suresh Verma,M,Bank of Baroda,BARB,NRI,Verified,2015-07-08,Nagpur,normal
+SBIN84234670,Om Bhatt,M,State Bank of India,SBIN,Savings,Verified,2020-02-14,Kolkata,normal
+KOTK42559072,Rachna Kapoor,F,Kotak Mahindra Bank,KOTK,Salary,Pending Review,2020-03-15,Surat,normal
+BARB30208677,Gaurav Rathore,M,Bank of Baroda,BARB,NRI,Verified,2015-01-27,Ahmedabad,normal
+PSBN98221829,Rajesh Chauhan,M,PSB National Bank,PSBN,Fixed Deposit,Expired,2019-03-22,Lucknow,normal
+HDFC76038997,Gauri Chopra,F,HDFC Bank,HDFC,Current,Expired,2015-09-03,Jaipur,normal
+AXIS65439545,Vandana Malhotra,F,Axis Bank,AXIS,Salary,Verified,2022-11-10,Bangalore,normal
+HDFC20043577,Farhan Mehta,M,HDFC Bank,HDFC,Joint,Verified,2021-08-21,Bhopal,circular_flow
+CNRB45029610,Rohan Chopra,M,Canara Bank,CNRB,Salary,Re-KYC Due,2024-07-17,Indore,normal
+ICIC46501299,Pankaj Bhatt,M,ICICI Bank,ICIC,Savings,Verified,2017-08-14,Hyderabad,normal
+PNBK24181143,Kartik Reddy,M,Punjab National Bank,PNBK,NRI,Verified,2016-11-04,Chandigarh,normal
+BARB70655283,Heena Dubey,F,Bank of Baroda,BARB,NRI,Verified,2018-06-16,Chennai,structuring_receiver
+KOTK15412975,Rachna Kapoor,F,Kotak Mahindra Bank,KOTK,Salary,Verified,2017-05-30,Bangalore,normal
+AXIS16570040,Sachin Iyengar,M,Axis Bank,AXIS,Salary,Verified,2022-08-05,Pune,layering
+AXIS83835976,Chhaya Luthra,F,Axis Bank,AXIS,Savings,Verified,2017-10-20,Chennai,normal
+PSBN18277097,Rohan Iyer,M,PSB National Bank,PSBN,Current,Verified,2024-04-24,Kolkata,normal
+KOTK88667527,Tarun Desai,M,Kotak Mahindra Bank,KOTK,Savings,Verified,2017-11-26,Bangalore,normal
+PNBK22345163,Komal Luthra,F,Punjab National Bank,PNBK,Salary,Verified,2024-07-02,Delhi,normal
+KOTK68137264,Suresh Joshi,M,Kotak Mahindra Bank,KOTK,Fixed Deposit,Verified,2024-03-19,Surat,layering
+PNBK57505459,Lata Khanna,F,Punjab National Bank,PNBK,Current,Verified,2017-05-29,Jaipur,layering
+KOTK93104469,Deepa Kumar,F,Kotak Mahindra Bank,KOTK,Current,Expired,2021-12-02,Lucknow,normal
+PSBN21773787,Ishaan Naik,M,PSB National Bank,PSBN,NRI,Verified,2018-02-19,Bhopal,normal
+BARB94658420,Uma Qureshi,F,Bank of Baroda,BARB,Joint,Re-KYC Due,2023-12-30,Mumbai,normal
+AXIS75052579,Sachin Naik,M,Axis Bank,AXIS,Joint,Pending Review,2018-11-10,Chandigarh,normal
+UBIN90143600,Sunita Patel,F,Union Bank of India,UBIN,Savings,Re-KYC Due,2017-06-16,Jaipur,circular_flow
+UBIN88381665,Fatima Qureshi,F,Union Bank of India,UBIN,Current,Verified,2017-08-11,Ahmedabad,normal
+PSBN39448924,Manish Rathore,M,PSB National Bank,PSBN,NRI,Verified,2021-06-16,Pune,normal
+UBIN89398174,Isha Bhatt,F,Union Bank of India,UBIN,Fixed Deposit,Expired,2015-04-26,Kochi,structuring_receiver
+KOTK35264294,Jatin Nair,M,Kotak Mahindra Bank,KOTK,NRI,Pending Review,2024-05-20,Lucknow,normal
+PSBN41222178,Sneha Desai,F,PSB National Bank,PSBN,Current,Verified,2021-09-30,Vadodara,normal
+BARB27514010,Rahul Yadav,M,Bank of Baroda,BARB,Fixed Deposit,Verified,2018-10-27,Chandigarh,normal
+PNBK24887509,Deepa Upadhyay,F,Punjab National Bank,PNBK,Joint,Re-KYC Due,2024-06-29,Kochi,structuring_receiver
+KOTK23560308,Tarun Iyengar,M,Kotak Mahindra Bank,KOTK,Salary,Verified,2018-10-10,Hyderabad,normal
+UBIN33381086,Ajay Oberoi,M,Union Bank of India,UBIN,Joint,Expired,2022-12-06,Thiruvananthapuram,normal
+PNBK60785855,Jai Upadhyay,M,Punjab National Bank,PNBK,Fixed Deposit,Expired,2018-06-10,Lucknow,normal
+KOTK62559853,Nandini Sharma,F,Kotak Mahindra Bank,KOTK,Joint,Verified,2024-07-16,Pune,normal
+KOTK23973438,Mayank Malhotra,M,Kotak Mahindra Bank,KOTK,Current,Verified,2020-07-25,Bangalore,structuring_receiver
+SBIN99929175,Aarti Joshi,F,State Bank of India,SBIN,Fixed Deposit,Verified,2022-03-02,Nagpur,normal
+SBIN57040785,Kavita Chopra,F,State Bank of India,SBIN,Savings,Expired,2017-11-17,Mumbai,normal
+PNBK65568711,Ekta Jain,F,Punjab National Bank,PNBK,NRI,Verified,2020-07-12,Visakhapatnam,normal
+KOTK97371655,Sarita Naik,F,Kotak Mahindra Bank,KOTK,Fixed Deposit,Verified,2023-07-03,Pune,layering
+PSBN52777459,Vikram Mishra,M,PSB National Bank,PSBN,Savings,Verified,2017-12-05,Chandigarh,normal
+SBIN83423305,Chhaya Joshi,F,State Bank of India,SBIN,Salary,Pending Review,2016-01-17,Thiruvananthapuram,normal
+PNBK91512791,Amit Khanna,M,Punjab National Bank,PNBK,NRI,Verified,2024-12-23,Delhi,normal
+HDFC84371711,Kavita Das,F,HDFC Bank,HDFC,Fixed Deposit,Pending Review,2023-02-05,Jaipur,normal
+SBIN16661956,Om Chopra,M,State Bank of India,SBIN,Joint,Pending Review,2019-05-29,Surat,normal
+HDFC21761279,Bhavna Sharma,F,HDFC Bank,HDFC,Fixed Deposit,Expired,2018-04-21,Thiruvananthapuram,structuring_receiver
+BARB32928708,Mohan Patel,M,Bank of Baroda,BARB,Salary,Verified,2022-02-27,Surat,normal
+ICIC75645462,Om Iyengar,M,ICICI Bank,ICIC,Salary,Verified,2022-05-31,Visakhapatnam,normal
+UBIN35042738,Bhavna Hegde,F,Union Bank of India,UBIN,Savings,Verified,2019-12-31,Nagpur,normal
+KOTK18273096,Jai Agarwal,M,Kotak Mahindra Bank,KOTK,Fixed Deposit,Expired,2016-09-11,Chennai,normal
+HDFC89151743,Bhavna Rathore,F,HDFC Bank,HDFC,Joint,Verified,2017-07-20,Indore,normal
+ICIC86868410,Yash Rathore,M,ICICI Bank,ICIC,Current,Verified,2024-11-20,Lucknow,normal
+AXIS86667841,Uma Kumar,F,Axis Bank,AXIS,Joint,Expired,2020-10-17,Thiruvananthapuram,normal
+PNBK32436477,Padma Luthra,F,Punjab National Bank,PNBK,Current,Verified,2017-05-17,Delhi,normal
+BARB94184877,Lata Khanna,F,Bank of Baroda,BARB,Joint,Verified,2016-08-28,Chandigarh,normal
+HDFC84673939,Karan Desai,M,HDFC Bank,HDFC,Joint,Verified,2019-06-16,Jaipur,normal
+KOTK80137085,Rajesh Yadav,M,Kotak Mahindra Bank,KOTK,NRI,Verified,2023-10-07,Bhopal,circular_flow
+KOTK23449152,Isha Upadhyay,F,Kotak Mahindra Bank,KOTK,Joint,Re-KYC Due,2016-03-08,Chennai,normal
+HDFC45451818,Hemant Dubey,M,HDFC Bank,HDFC,Fixed Deposit,Verified,2019-04-18,Coimbatore,normal
+CNRB64086249,Vikram Verma,M,Canara Bank,CNRB,Joint,Pending Review,2016-08-12,Indore,normal
+BARB16615722,Uma Chauhan,F,Bank of Baroda,BARB,NRI,Verified,2023-05-13,Kochi,normal
+CNRB47627490,Sarita Kapoor,F,Canara Bank,CNRB,NRI,Re-KYC Due,2024-06-14,Chennai,normal
+CNRB69473299,Jai Mehta,M,Canara Bank,CNRB,Salary,Verified,2023-09-06,Bhopal,normal
+ICIC38372352,Ravi Das,M,ICICI Bank,ICIC,NRI,Expired,2024-03-28,Surat,normal
+AXIS31336920,Tarun Gupta,M,Axis Bank,AXIS,Salary,Expired,2015-09-26,Vadodara,normal
+KOTK13885356,Padma Qureshi,F,Kotak Mahindra Bank,KOTK,Current,Re-KYC Due,2016-12-12,Kolkata,normal
+ICIC16785951,Kunal Kumar,M,ICICI Bank,ICIC,Fixed Deposit,Verified,2019-01-16,Jaipur,normal
+HDFC95283260,Ekta Pandey,F,HDFC Bank,HDFC,Fixed Deposit,Verified,2016-05-22,Ahmedabad,normal
+PNBK73697356,Juhi Luthra,F,Punjab National Bank,PNBK,Joint,Verified,2021-07-31,Kochi,normal
+SBIN48261364,Uma Bajaj,F,State Bank of India,SBIN,NRI,Verified,2015-04-23,Pune,normal
+BARB37746963,Harsh Malhotra,M,Bank of Baroda,BARB,Fixed Deposit,Verified,2018-01-07,Vadodara,normal
+ICIC27758896,Padma Sharma,F,ICICI Bank,ICIC,Current,Pending Review,2022-04-05,Mumbai,normal
+CNRB66882385,Juhi Kapoor,F,Canara Bank,CNRB,Salary,Verified,2015-02-16,Jaipur,dormant_reactivation
+KOTK63304911,Divya Qureshi,F,Kotak Mahindra Bank,KOTK,Savings,Verified,2021-07-22,Vadodara,normal
+KOTK91745321,Tarun Saxena,M,Kotak Mahindra Bank,KOTK,Salary,Expired,2018-03-03,Chennai,normal
+UBIN47162866,Rahul Agarwal,M,Union Bank of India,UBIN,Fixed Deposit,Expired,2017-12-05,Lucknow,circular_flow
+PSBN90535106,Gauri Chopra,F,PSB National Bank,PSBN,Fixed Deposit,Verified,2019-07-14,Hyderabad,normal
+CNRB66178935,Eshan Mishra,M,Canara Bank,CNRB,NRI,Expired,2019-07-16,Delhi,normal
+UBIN39845082,Jatin Das,M,Union Bank of India,UBIN,Joint,Expired,2022-09-12,Surat,layering
+CNRB32815223,Sachin Pandey,M,Canara Bank,CNRB,Fixed Deposit,Pending Review,2024-06-05,Pune,normal
+CNRB85031958,Fatima Mehta,F,Canara Bank,CNRB,Current,Expired,2023-07-22,Chandigarh,normal
+BARB51216287,Jai Dubey,M,Bank of Baroda,BARB,Salary,Verified,2019-09-19,Jaipur,normal
+ICIC17204398,Chetan Iyer,M,ICICI Bank,ICIC,Fixed Deposit,Pending Review,2024-09-18,Coimbatore,circular_flow
+BARB77172936,Karan Naik,M,Bank of Baroda,BARB,Fixed Deposit,Verified,2016-05-05,Vadodara,normal
+PNBK36883353,Sneha Nair,F,Punjab National Bank,PNBK,NRI,Pending Review,2018-11-04,Nagpur,circular_flow
+SBIN75441993,Tanvi Verma,F,State Bank of India,SBIN,Fixed Deposit,Verified,2018-09-24,Chandigarh,normal
+CNRB38102825,Rajesh Luthra,M,Canara Bank,CNRB,Current,Pending Review,2023-07-15,Pune,normal
+KOTK68211760,Ravi Mehta,M,Kotak Mahindra Bank,KOTK,NRI,Verified,2022-02-07,Bhopal,layering
+PSBN81643088,Uday Sharma,M,PSB National Bank,PSBN,Fixed Deposit,Verified,2017-03-27,Mumbai,normal
+PSBN10553491,Girish Das,M,PSB National Bank,PSBN,Fixed Deposit,Verified,2022-01-10,Ahmedabad,layering
+PNBK23785264,Sachin Kapoor,M,Punjab National Bank,PNBK,Joint,Pending Review,2019-04-21,Lucknow,normal
+CNRB49034245,Sarita Kumar,F,Canara Bank,CNRB,Fixed Deposit,Pending Review,2020-02-11,Thiruvananthapuram,normal
+UBIN75790669,Ajay Mehta,M,Union Bank of India,UBIN,Current,Verified,2019-01-11,Indore,circular_flow
+BARB12941149,Neha Mehta,F,Bank of Baroda,BARB,Joint,Verified,2021-08-12,Chennai,normal
+HDFC95942441,Komal Kumar,F,HDFC Bank,HDFC,Joint,Pending Review,2017-11-13,Delhi,normal
+PSBN16473999,Suresh Reddy,M,PSB National Bank,PSBN,Savings,Verified,2022-09-26,Nagpur,normal
+ICIC30552371,Heena Bajaj,F,ICICI Bank,ICIC,Fixed Deposit,Expired,2017-04-21,Mumbai,layering
+AXIS46235719,Lata Reddy,F,Axis Bank,AXIS,Joint,Expired,2021-12-25,Hyderabad,normal
+AXIS92906016,Uma Reddy,F,Axis Bank,AXIS,Salary,Verified,2016-04-27,Chennai,normal
+CNRB80215481,Lalit Das,M,Canara Bank,CNRB,Salary,Expired,2017-04-06,Bhopal,normal
+ICIC37876214,Sneha Saxena,F,ICICI Bank,ICIC,NRI,Verified,2022-09-19,Ahmedabad,layering
+SBIN87061479,Lata Desai,F,State Bank of India,SBIN,NRI,Verified,2022-07-03,Bangalore,normal
+CNRB96481420,Karan Reddy,M,Canara Bank,CNRB,NRI,Verified,2017-08-04,Jaipur,normal
+PSBN48999266,Mohan Verma,M,PSB National Bank,PSBN,Fixed Deposit,Verified,2019-01-15,Bhopal,normal
+PSBN28574987,Mohan Kumar,M,PSB National Bank,PSBN,Fixed Deposit,Verified,2022-06-10,Chandigarh,normal
+CNRB22475714,Ekta Yadav,F,Canara Bank,CNRB,Salary,Verified,2019-03-07,Chennai,normal
+HDFC74188958,Ekta Agarwal,F,HDFC Bank,HDFC,NRI,Expired,2023-12-21,Pune,normal
+PNBK23920137,Manju Gupta,F,Punjab National Bank,PNBK,Joint,Verified,2019-09-01,Coimbatore,layering
+HDFC58130331,Deepak Yadav,M,HDFC Bank,HDFC,Savings,Re-KYC Due,2021-11-09,Hyderabad,normal
+HDFC69148126,Eshan Iyer,M,HDFC Bank,HDFC,Savings,Verified,2015-07-08,Chandigarh,normal
+KOTK85834657,Tanvi Qureshi,F,Kotak Mahindra Bank,KOTK,Fixed Deposit,Re-KYC Due,2017-07-06,Chandigarh,normal
+HDFC98813650,Mayank Reddy,M,HDFC Bank,HDFC,Current,Verified,2023-02-24,Kochi,normal
+AXIS92263926,Uday Nair,M,Axis Bank,AXIS,Savings,Expired,2015-08-12,Pune,normal
+PNBK20048242,Dhruv Oberoi,M,Punjab National Bank,PNBK,NRI,Verified,2023-06-05,Ahmedabad,circular_flow
+AXIS39891163,Pooja Gupta,F,Axis Bank,AXIS,Fixed Deposit,Verified,2021-03-04,Indore,normal
+ICIC86911446,Ravi Menon,M,ICICI Bank,ICIC,Savings,Re-KYC Due,2020-01-10,Surat,normal
+PSBN23776553,Meena Oberoi,F,PSB National Bank,PSBN,NRI,Verified,2019-07-11,Visakhapatnam,normal
+KOTK95568918,Ravi Vyas,M,Kotak Mahindra Bank,KOTK,Joint,Pending Review,2018-06-01,Kolkata,circular_flow
+UBIN17284695,Chetan Chauhan,M,Union Bank of India,UBIN,Current,Re-KYC Due,2024-02-27,Nagpur,normal
+KOTK73502927,Padma Yadav,F,Kotak Mahindra Bank,KOTK,Fixed Deposit,Verified,2023-01-14,Nagpur,normal
+PSBN55816176,Padma Malhotra,F,PSB National Bank,PSBN,Fixed Deposit,Re-KYC Due,2018-12-25,Lucknow,normal
+PSBN32032560,Tarun Reddy,M,PSB National Bank,PSBN,Current,Re-KYC Due,2020-07-09,Bhopal,normal
+BARB26206227,Juhi Das,F,Bank of Baroda,BARB,NRI,Verified,2024-07-22,Nagpur,normal
+SBIN65629268,Gaurav Chauhan,M,State Bank of India,SBIN,Fixed Deposit,Re-KYC Due,2015-07-10,Coimbatore,normal
+ICIC98376561,Uma Luthra,F,ICICI Bank,ICIC,Joint,Verified,2021-08-10,Surat,normal
+AXIS68090825,Nandini Gupta,F,Axis Bank,AXIS,Joint,Verified,2024-05-28,Vadodara,normal
+PNBK27231111,Deepak Upadhyay,M,Punjab National Bank,PNBK,NRI,Expired,2016-02-29,Thiruvananthapuram,normal
+HDFC66192230,Pankaj Pandey,M,HDFC Bank,HDFC,Fixed Deposit,Re-KYC Due,2021-10-30,Ahmedabad,normal
+ICIC27900864,Aarti Mishra,F,ICICI Bank,ICIC,NRI,Pending Review,2016-07-19,Vadodara,normal
+UBIN84300459,Manju Saxena,F,Union Bank of India,UBIN,Current,Verified,2022-02-04,Kolkata,normal
+PNBK97253117,Nikhil Dubey,M,Punjab National Bank,PNBK,Joint,Pending Review,2016-12-29,Chandigarh,normal
+ICIC88222933,Sachin Saxena,M,ICICI Bank,ICIC,Fixed Deposit,Expired,2021-05-26,Bhopal,normal
+HDFC11714029,Hemant Mishra,M,HDFC Bank,HDFC,Savings,Verified,2020-11-11,Indore,normal
+BARB45833216,Lata Gupta,F,Bank of Baroda,BARB,Current,Verified,2023-05-31,Jaipur,layering
+BARB82634888,Sneha Mishra,F,Bank of Baroda,BARB,Salary,Re-KYC Due,2015-05-13,Nagpur,normal
+BARB96854901,Tanvi Saxena,F,Bank of Baroda,BARB,NRI,Verified,2021-04-17,Vadodara,normal
+HDFC62016704,Nikhil Gupta,M,HDFC Bank,HDFC,Fixed Deposit,Verified,2019-09-03,Visakhapatnam,normal
+BARB93290380,Nandini Bajaj,F,Bank of Baroda,BARB,NRI,Re-KYC Due,2024-09-28,Ahmedabad,layering
+AXIS90985229,Tarun Upadhyay,M,Axis Bank,AXIS,Fixed Deposit,Verified,2017-03-15,Lucknow,normal
+PNBK33326387,Lata Singh,F,Punjab National Bank,PNBK,Joint,Verified,2023-03-30,Indore,circular_flow
+CNRB27457234,Pooja Saxena,F,Canara Bank,CNRB,Joint,Re-KYC Due,2016-10-21,Jaipur,normal
+PSBN30629718,Ekta Nair,F,PSB National Bank,PSBN,Joint,Verified,2018-08-14,Thiruvananthapuram,normal
+KOTK83841249,Om Oberoi,M,Kotak Mahindra Bank,KOTK,Savings,Re-KYC Due,2019-01-06,Chandigarh,normal
+SBIN77798790,Deepak Qureshi,M,State Bank of India,SBIN,NRI,Pending Review,2016-10-14,Visakhapatnam,normal
+BARB99031246,Bhavna Malhotra,F,Bank of Baroda,BARB,Salary,Verified,2018-09-21,Lucknow,layering
+AXIS73734252,Padma Yadav,F,Axis Bank,AXIS,Fixed Deposit,Verified,2021-04-18,Chennai,normal
+KOTK93366885,Bharat Chopra,M,Kotak Mahindra Bank,KOTK,Savings,Expired,2017-09-25,Chandigarh,normal
+HDFC44439001,Rachna Iyer,F,HDFC Bank,HDFC,Fixed Deposit,Verified,2021-01-21,Mumbai,structuring_receiver
+AXIS69801634,Tarun Pandey,M,Axis Bank,AXIS,Savings,Verified,2020-06-16,Kolkata,normal
+PNBK82205759,Anita Reddy,F,Punjab National Bank,PNBK,Savings,Expired,2020-12-24,Bangalore,normal
+HDFC23948820,Komal Rao,F,HDFC Bank,HDFC,Joint,Re-KYC Due,2016-09-30,Bhopal,dormant_reactivation
+PSBN71636167,Karan Nair,M,PSB National Bank,PSBN,Salary,Verified,2023-01-15,Bangalore,layering
+AXIS19454577,Sunita Bajaj,F,Axis Bank,AXIS,Current,Verified,2021-06-13,Bhopal,normal
+HDFC52467059,Komal Iyengar,F,HDFC Bank,HDFC,NRI,Expired,2015-03-11,Chennai,normal
+KOTK16109168,Mayank Singh,M,Kotak Mahindra Bank,KOTK,Savings,Verified,2022-11-10,Vadodara,layering
+KOTK21610534,Rachna Kapoor,F,Kotak Mahindra Bank,KOTK,NRI,Verified,2018-02-27,Indore,normal
+PNBK81600831,Amit Naik,M,Punjab National Bank,PNBK,Current,Expired,2017-06-19,Indore,layering
+PNBK50004466,Hemant Mishra,M,Punjab National Bank,PNBK,Fixed Deposit,Expired,2022-08-06,Kochi,normal
+AXIS28974879,Rajesh Saxena,M,Axis Bank,AXIS,Savings,Verified,2016-05-19,Coimbatore,normal
+SBIN50894954,Hemant Saxena,M,State Bank of India,SBIN,Fixed Deposit,Expired,2017-05-10,Kochi,normal
+PNBK31602928,Uma Pandey,F,Punjab National Bank,PNBK,Current,Pending Review,2017-01-23,Jaipur,normal
+PSBN83665549,Sunita Tiwari,F,PSB National Bank,PSBN,Fixed Deposit,Pending Review,2020-03-04,Bangalore,normal
+SBIN36496940,Anita Bajaj,F,State Bank of India,SBIN,Joint,Verified,2023-02-20,Chandigarh,normal
+SBIN48270459,Lata Chopra,F,State Bank of India,SBIN,Savings,Verified,2021-12-12,Chandigarh,circular_flow
+CNRB88405961,Rahul Yadav,M,Canara Bank,CNRB,Joint,Pending Review,2016-09-16,Kochi,normal
+PSBN52038976,Ajay Joshi,M,PSB National Bank,PSBN,Current,Expired,2017-10-05,Bhopal,normal
+UBIN74418331,Bhavna Mehta,F,Union Bank of India,UBIN,NRI,Verified,2020-03-10,Lucknow,normal
+KOTK21002322,Mohan Verma,M,Kotak Mahindra Bank,KOTK,Salary,Re-KYC Due,2024-06-09,Hyderabad,normal
+SBIN20120010,Gaurav Bajaj,M,State Bank of India,SBIN,Joint,Expired,2015-03-18,Mumbai,normal
+KOTK38556255,Kartik Iyengar,M,Kotak Mahindra Bank,KOTK,Joint,Verified,2015-05-31,Visakhapatnam,normal
+PNBK59099345,Hemant Naik,M,Punjab National Bank,PNBK,Current,Re-KYC Due,2019-05-27,Coimbatore,normal
+ICIC77259613,Nikhil Mehta,M,ICICI Bank,ICIC,Savings,Verified,2020-09-21,Kochi,normal
+PNBK79006257,Kunal Yadav,M,Punjab National Bank,PNBK,NRI,Verified,2016-07-28,Pune,normal
+ICIC58156722,Jatin Nair,M,ICICI Bank,ICIC,Current,Re-KYC Due,2015-06-15,Surat,normal
+BARB15745651,Pooja Garg,F,Bank of Baroda,BARB,Current,Pending Review,2022-07-01,Kochi,layering
+PSBN15355917,Vandana Menon,F,PSB National Bank,PSBN,Salary,Verified,2022-04-10,Vadodara,layering
+KOTK83061428,Manish Bajaj,M,Kotak Mahindra Bank,KOTK,Current,Verified,2021-05-24,Indore,normal
+AXIS43767356,Komal Singh,F,Axis Bank,AXIS,Current,Pending Review,2019-03-22,Indore,circular_flow
+ICIC74707720,Tanvi Dubey,F,ICICI Bank,ICIC,Joint,Verified,2024-12-12,Vadodara,normal
+BARB20346606,Bharat Joshi,M,Bank of Baroda,BARB,Fixed Deposit,Verified,2020-10-08,Kolkata,normal
+KOTK25882013,Sunita Garg,F,Kotak Mahindra Bank,KOTK,Current,Verified,2022-05-31,Chandigarh,normal
+ICIC38280205,Dhruv Naik,M,ICICI Bank,ICIC,Current,Expired,2021-08-16,Bhopal,normal
+KOTK89503557,Sneha Mehta,F,Kotak Mahindra Bank,KOTK,Current,Expired,2016-10-21,Vadodara,normal
+PSBN32325960,Isha Nair,F,PSB National Bank,PSBN,Current,Pending Review,2017-11-23,Indore,normal
+CNRB21508969,Jatin Patel,M,Canara Bank,CNRB,NRI,Pending Review,2017-06-06,Surat,normal
+HDFC90643207,Anil Malhotra,M,HDFC Bank,HDFC,Joint,Re-KYC Due,2016-08-07,Pune,normal
+PNBK55992559,Farhan Bajaj,M,Punjab National Bank,PNBK,Joint,Pending Review,2020-02-01,Bangalore,normal
+SBIN12222998,Chhaya Mehta,F,State Bank of India,SBIN,Joint,Re-KYC Due,2017-04-08,Vadodara,circular_flow
+SBIN33813202,Sanjay Vyas,M,State Bank of India,SBIN,Joint,Pending Review,2020-05-03,Delhi,normal
+SBIN22507745,Hemant Pandey,M,State Bank of India,SBIN,Fixed Deposit,Verified,2020-05-29,Thiruvananthapuram,normal
+AXIS66463253,Rajesh Khanna,M,Axis Bank,AXIS,Savings,Expired,2019-02-26,Vadodara,normal
+HDFC57045704,Rachna Naik,F,HDFC Bank,HDFC,Fixed Deposit,Re-KYC Due,2021-08-09,Coimbatore,structuring_receiver
+ICIC41207351,Deepa Bajaj,F,ICICI Bank,ICIC,Savings,Verified,2024-08-19,Thiruvananthapuram,normal
+BARB10734097,Yash Bajaj,M,Bank of Baroda,BARB,Fixed Deposit,Re-KYC Due,2022-12-14,Mumbai,layering
+PSBN60335658,Arjun Qureshi,M,PSB National Bank,PSBN,Current,Expired,2022-05-05,Chandigarh,normal
+HDFC97453041,Meena Nair,F,HDFC Bank,HDFC,Salary,Verified,2021-07-25,Visakhapatnam,normal
+CNRB63345392,Bhavna Yadav,F,Canara Bank,CNRB,Current,Verified,2023-06-20,Visakhapatnam,normal
+UBIN85040303,Dhruv Verma,M,Union Bank of India,UBIN,NRI,Verified,2021-03-22,Lucknow,normal
+SBIN40839382,Vinod Mehta,M,State Bank of India,SBIN,Fixed Deposit,Verified,2020-01-04,Chennai,normal
+AXIS92413089,Chhaya Chauhan,F,Axis Bank,AXIS,Fixed Deposit,Expired,2022-10-26,Delhi,normal
+SBIN29505652,Komal Sharma,F,State Bank of India,SBIN,Joint,Verified,2020-04-15,Bangalore,circular_flow
+SBIN91742470,Neha Garg,F,State Bank of India,SBIN,Fixed Deposit,Verified,2015-06-04,Indore,normal
+KOTK17712557,Girish Mishra,M,Kotak Mahindra Bank,KOTK,Current,Expired,2023-09-04,Surat,normal
+CNRB36138432,Kavita Qureshi,F,Canara Bank,CNRB,Joint,Pending Review,2015-05-18,Vadodara,normal
+PSBN58283485,Mayank Joshi,M,PSB National Bank,PSBN,Fixed Deposit,Verified,2017-09-06,Pune,normal
+UBIN99880518,Pooja Iyengar,F,Union Bank of India,UBIN,NRI,Pending Review,2019-06-07,Kolkata,normal
+AXIS48184109,Karan Desai,M,Axis Bank,AXIS,Joint,Pending Review,2023-02-22,Kochi,normal
+BARB91384718,Sarita Agarwal,F,Bank of Baroda,BARB,NRI,Verified,2017-03-07,Coimbatore,normal
+AXIS24289484,Sunita Jain,F,Axis Bank,AXIS,Savings,Pending Review,2021-04-07,Lucknow,structuring_sender
+CNRB82196170,Meena Pandey,F,Canara Bank,CNRB,Joint,Verified,2024-02-13,Nagpur,normal
+BARB55588495,Jatin Naik,M,Bank of Baroda,BARB,NRI,Expired,2023-09-12,Nagpur,normal
+SBIN44603983,Amit Naik,M,State Bank of India,SBIN,NRI,Expired,2015-10-04,Ahmedabad,layering
+HDFC57391778,Jai Bhatt,M,HDFC Bank,HDFC,Joint,Verified,2020-10-16,Jaipur,layering
+UBIN20204415,Anita Iyengar,F,Union Bank of India,UBIN,Current,Verified,2021-03-21,Chandigarh,layering
+CNRB34532913,Uma Tiwari,F,Canara Bank,CNRB,Fixed Deposit,Verified,2015-01-17,Surat,dormant_reactivation
+CNRB37753358,Kunal Chopra,M,Canara Bank,CNRB,Current,Re-KYC Due,2017-07-27,Ahmedabad,normal
+SBIN26089818,Sachin Nair,M,State Bank of India,SBIN,Fixed Deposit,Expired,2015-11-18,Surat,normal
+ICIC59821155,Hemant Kumar,M,ICICI Bank,ICIC,Salary,Verified,2021-12-17,Coimbatore,normal
+AXIS47616749,Eshan Verma,M,Axis Bank,AXIS,Current,Re-KYC Due,2019-06-18,Coimbatore,circular_flow
+ICIC82580645,Gauri Khanna,F,ICICI Bank,ICIC,Joint,Verified,2015-05-14,Indore,normal
+SBIN79552316,Deepak Menon,M,State Bank of India,SBIN,Salary,Expired,2020-02-28,Mumbai,layering
+KOTK23522144,Kavita Hegde,F,Kotak Mahindra Bank,KOTK,Salary,Pending Review,2018-08-25,Jaipur,normal
+CNRB73262903,Pooja Chopra,F,Canara Bank,CNRB,Salary,Verified,2021-11-16,Pune,normal
+UBIN58999937,Harsh Jain,M,Union Bank of India,UBIN,NRI,Verified,2024-07-31,Nagpur,normal
+BARB23404289,Deepa Tiwari,F,Bank of Baroda,BARB,Salary,Re-KYC Due,2023-01-31,Ahmedabad,normal
+PNBK30072000,Uday Das,M,Punjab National Bank,PNBK,Savings,Verified,2020-04-21,Bhopal,normal
+UBIN75313057,Girish Rathore,M,Union Bank of India,UBIN,Salary,Pending Review,2018-05-13,Coimbatore,normal
+PSBN38919534,Meena Joshi,F,PSB National Bank,PSBN,Salary,Verified,2024-02-16,Chennai,normal
+UBIN58359530,Aarti Bajaj,F,Union Bank of India,UBIN,Joint,Re-KYC Due,2021-04-14,Jaipur,normal
+UBIN91279039,Disha Iyer,F,Union Bank of India,UBIN,Joint,Pending Review,2017-03-25,Visakhapatnam,normal
+UBIN53632879,Padma Mishra,F,Union Bank of India,UBIN,Joint,Verified,2022-07-20,Nagpur,circular_flow
+CNRB72243750,Uday Yadav,M,Canara Bank,CNRB,Current,Re-KYC Due,2022-01-31,Pune,normal
+KOTK86723896,Rahul Jain,M,Kotak Mahindra Bank,KOTK,Savings,Verified,2019-07-16,Pune,normal
+CNRB45899536,Aarti Bhatt,F,Canara Bank,CNRB,Fixed Deposit,Verified,2021-10-15,Jaipur,normal
+AXIS70436720,Tarun Upadhyay,M,Axis Bank,AXIS,Current,Verified,2019-08-23,Mumbai,normal
+SBIN38262427,Neha Bajaj,F,State Bank of India,SBIN,NRI,Verified,2016-11-14,Chennai,normal
+AXIS17224328,Uma Naik,F,Axis Bank,AXIS,NRI,Pending Review,2015-04-18,Bangalore,normal
+SBIN97890153,Juhi Nair,F,State Bank of India,SBIN,NRI,Verified,2024-12-05,Ahmedabad,normal
+PNBK27619715,Divya Luthra,F,Punjab National Bank,PNBK,Current,Verified,2020-11-27,Delhi,layering
+ICIC82555977,Pankaj Naik,M,ICICI Bank,ICIC,Joint,Verified,2018-01-20,Hyderabad,normal
+KOTK90206393,Hemant Verma,M,Kotak Mahindra Bank,KOTK,Fixed Deposit,Expired,2020-02-14,Coimbatore,normal
+CNRB56596140,Komal Rathore,F,Canara Bank,CNRB,Joint,Verified,2020-05-26,Bangalore,normal
+CNRB30900054,Bhavna Jain,F,Canara Bank,CNRB,Savings,Verified,2018-05-28,Vadodara,normal
+CNRB72974683,Rohan Dubey,M,Canara Bank,CNRB,Savings,Expired,2020-12-31,Surat,normal
+PSBN67772049,Dhruv Kapoor,M,PSB National Bank,PSBN,Salary,Pending Review,2023-12-13,Ahmedabad,normal
+BARB65262252,Ishaan Garg,M,Bank of Baroda,BARB,Joint,Verified,2024-11-22,Indore,normal
+HDFC39607414,Manju Hegde,F,HDFC Bank,HDFC,Savings,Verified,2017-12-13,Ahmedabad,normal
+CNRB97034430,Mayank Agarwal,M,Canara Bank,CNRB,Joint,Re-KYC Due,2023-05-02,Jaipur,normal
+PNBK28337367,Tanvi Singh,F,Punjab National Bank,PNBK,Savings,Expired,2018-04-01,Nagpur,normal
+ICIC35204672,Manish Yadav,M,ICICI Bank,ICIC,Savings,Verified,2018-08-06,Delhi,normal
+SBIN47864772,Amit Verma,M,State Bank of India,SBIN,Current,Expired,2018-01-07,Nagpur,normal
+PNBK11976335,Jai Desai,M,Punjab National Bank,PNBK,Current,Verified,2020-07-14,Bhopal,normal
+UBIN72234675,Rachna Oberoi,F,Union Bank of India,UBIN,Savings,Verified,2022-10-25,Bangalore,normal
+CNRB62669959,Sanjay Gupta,M,Canara Bank,CNRB,Joint,Verified,2015-10-20,Pune,structuring_sender
+HDFC11693222,Sarita Bajaj,F,HDFC Bank,HDFC,Fixed Deposit,Verified,2016-05-14,Indore,normal
+PSBN36733470,Bharat Chopra,M,PSB National Bank,PSBN,Fixed Deposit,Re-KYC Due,2020-03-02,Chennai,normal
+HDFC51890609,Harsh Naik,M,HDFC Bank,HDFC,Current,Expired,2018-08-16,Delhi,normal
+SBIN43999060,Ishaan Qureshi,M,State Bank of India,SBIN,Fixed Deposit,Verified,2020-05-25,Kolkata,layering
+SBIN41670798,Sneha Rao,F,State Bank of India,SBIN,NRI,Verified,2022-02-05,Mumbai,normal
+SBIN63124490,Pooja Upadhyay,F,State Bank of India,SBIN,Current,Verified,2023-11-07,Delhi,normal
+PNBK59848284,Dhruv Vyas,M,Punjab National Bank,PNBK,Savings,Verified,2023-08-24,Pune,normal
+PSBN18022882,Mayank Chauhan,M,PSB National Bank,PSBN,Fixed Deposit,Verified,2018-12-27,Visakhapatnam,normal
+BARB52512063,Rohan Oberoi,M,Bank of Baroda,BARB,Fixed Deposit,Re-KYC Due,2021-04-06,Kochi,circular_flow
+PSBN60703288,Bharat Das,M,PSB National Bank,PSBN,Fixed Deposit,Verified,2019-01-07,Jaipur,normal
+AXIS49555923,Eshan Luthra,M,Axis Bank,AXIS,Fixed Deposit,Verified,2021-02-01,Kolkata,normal
+UBIN72866875,Hemant Dubey,M,Union Bank of India,UBIN,Joint,Re-KYC Due,2018-02-01,Visakhapatnam,circular_flow
+ICIC49684512,Gauri Nair,F,ICICI Bank,ICIC,Salary,Pending Review,2024-03-10,Kochi,normal
+PNBK12512536,Farhan Hegde,M,Punjab National Bank,PNBK,Salary,Re-KYC Due,2021-12-13,Thiruvananthapuram,normal
+AXIS62008140,Nandini Singh,F,Axis Bank,AXIS,Joint,Expired,2017-02-16,Surat,normal
+CNRB53298644,Sanjay Yadav,M,Canara Bank,CNRB,Fixed Deposit,Verified,2019-08-06,Chennai,normal
+PSBN27418007,Lata Singh,F,PSB National Bank,PSBN,Savings,Verified,2017-01-01,Chennai,normal
+KOTK96134450,Mohan Kumar,M,Kotak Mahindra Bank,KOTK,NRI,Expired,2024-05-18,Surat,normal
+PSBN59171204,Kartik Bajaj,M,PSB National Bank,PSBN,Joint,Expired,2017-06-23,Bangalore,normal
+ICIC20731620,Vandana Rao,F,ICICI Bank,ICIC,Fixed Deposit,Verified,2020-04-01,Kochi,normal
+PSBN92803389,Yash Garg,M,PSB National Bank,PSBN,Joint,Verified,2017-12-24,Bangalore,normal
+AXIS23035125,Karan Rao,M,Axis Bank,AXIS,Fixed Deposit,Verified,2016-02-19,Visakhapatnam,layering
+BARB86507818,Kavita Qureshi,F,Bank of Baroda,BARB,Current,Pending Review,2022-01-05,Visakhapatnam,normal
+UBIN71568435,Meena Tiwari,F,Union Bank of India,UBIN,Fixed Deposit,Verified,2022-11-17,Chennai,normal
+HDFC77738718,Sunita Saxena,F,HDFC Bank,HDFC,Fixed Deposit,Verified,2018-10-14,Visakhapatnam,normal
+UBIN83830667,Bharat Dubey,M,Union Bank of India,UBIN,Salary,Verified,2018-08-22,Bhopal,normal
+BARB85584002,Pankaj Vyas,M,Bank of Baroda,BARB,Current,Verified,2021-02-12,Visakhapatnam,circular_flow
+ICIC70062404,Lakshman Garg,M,ICICI Bank,ICIC,Savings,Expired,2019-06-15,Delhi,layering
+AXIS28130896,Lalit Patel,M,Axis Bank,AXIS,Salary,Verified,2024-12-25,Lucknow,normal
+PSBN47038339,Harsh Bhatt,M,PSB National Bank,PSBN,Joint,Pending Review,2021-03-17,Coimbatore,normal
+PSBN71789789,Sanjay Reddy,M,PSB National Bank,PSBN,Current,Verified,2018-12-27,Jaipur,normal
+BARB44392465,Isha Chopra,F,Bank of Baroda,BARB,Salary,Verified,2024-02-05,Coimbatore,layering
+SBIN53579429,Vandana Rao,F,State Bank of India,SBIN,NRI,Verified,2023-11-22,Surat,normal
+KOTK96201956,Jatin Reddy,M,Kotak Mahindra Bank,KOTK,Savings,Expired,2018-05-15,Coimbatore,normal
+UBIN56698401,Padma Gupta,F,Union Bank of India,UBIN,NRI,Verified,2024-11-12,Chennai,normal
+PSBN95078886,Jai Vyas,M,PSB National Bank,PSBN,Fixed Deposit,Verified,2023-09-20,Delhi,normal
+AXIS85821325,Sneha Bhatt,F,Axis Bank,AXIS,Salary,Pending Review,2016-09-04,Ahmedabad,normal
+ICIC89877290,Lata Iyengar,F,ICICI Bank,ICIC,Joint,Verified,2021-06-14,Ahmedabad,normal
+PNBK27742113,Rachna Iyengar,F,Punjab National Bank,PNBK,Savings,Verified,2018-10-08,Coimbatore,normal
+CNRB21419108,Ishaan Iyengar,M,Canara Bank,CNRB,Joint,Verified,2019-06-21,Hyderabad,normal
+BARB75479608,Dhruv Saxena,M,Bank of Baroda,BARB,Fixed Deposit,Pending Review,2019-06-08,Kolkata,structuring_sender
+BARB19615892,Girish Chopra,M,Bank of Baroda,BARB,NRI,Verified,2017-12-26,Coimbatore,normal
+HDFC59025393,Lata Jain,F,HDFC Bank,HDFC,Current,Verified,2018-11-27,Kochi,circular_flow
+PNBK56938140,Amit Kapoor,M,Punjab National Bank,PNBK,NRI,Pending Review,2021-11-29,Hyderabad,circular_flow
+BARB60173377,Vandana Malhotra,F,Bank of Baroda,BARB,Fixed Deposit,Re-KYC Due,2016-09-30,Bangalore,normal
+KOTK29820881,Sneha Chopra,F,Kotak Mahindra Bank,KOTK,Salary,Verified,2024-09-28,Chandigarh,normal
+ICIC73242092,Arjun Kapoor,M,ICICI Bank,ICIC,Salary,Verified,2015-04-04,Visakhapatnam,circular_flow
+CNRB83658696,Heena Qureshi,F,Canara Bank,CNRB,Joint,Expired,2020-06-01,Hyderabad,normal
+KOTK99057266,Amit Hegde,M,Kotak Mahindra Bank,KOTK,Savings,Verified,2020-11-27,Pune,normal
+CNRB17124981,Kavita Yadav,F,Canara Bank,CNRB,Fixed Deposit,Verified,2020-03-19,Bangalore,circular_flow
+SBIN12560649,Pooja Garg,F,State Bank of India,SBIN,Fixed Deposit,Verified,2018-04-13,Ahmedabad,normal
+UBIN75050252,Farhan Reddy,M,Union Bank of India,UBIN,Joint,Pending Review,2024-09-20,Bangalore,normal
+AXIS12884132,Gauri Menon,F,Axis Bank,AXIS,Current,Pending Review,2015-06-12,Lucknow,normal
+PSBN56544010,Chhaya Joshi,F,PSB National Bank,PSBN,Salary,Verified,2022-09-03,Lucknow,layering
+PSBN93992429,Gauri Agarwal,F,PSB National Bank,PSBN,NRI,Re-KYC Due,2017-11-21,Mumbai,normal
+PNBK55873760,Manish Malhotra,M,Punjab National Bank,PNBK,Fixed Deposit,Verified,2019-05-29,Bangalore,normal
+BARB66013532,Girish Yadav,M,Bank of Baroda,BARB,Joint,Verified,2017-09-11,Bhopal,normal
+ICIC82777382,Lalit Chauhan,M,ICICI Bank,ICIC,Current,Expired,2016-06-23,Hyderabad,normal
+CNRB80303981,Gaurav Mehta,M,Canara Bank,CNRB,NRI,Re-KYC Due,2016-07-07,Hyderabad,circular_flow
+UBIN19101846,Jatin Joshi,M,Union Bank of India,UBIN,Joint,Expired,2021-04-01,Chennai,normal
+PSBN52773504,Sarita Nair,F,PSB National Bank,PSBN,NRI,Verified,2024-11-14,Lucknow,normal
+PNBK35224021,Vandana Agarwal,F,Punjab National Bank,PNBK,Current,Verified,2016-03-13,Mumbai,circular_flow
+CNRB91282861,Mayank Yadav,M,Canara Bank,CNRB,Joint,Verified,2021-05-11,Thiruvananthapuram,normal
+UBIN20667011,Lata Patel,F,Union Bank of India,UBIN,NRI,Verified,2022-09-19,Vadodara,normal
+PNBK62004039,Dhruv Garg,M,Punjab National Bank,PNBK,NRI,Verified,2020-07-05,Pune,normal
+PSBN46219821,Sneha Jain,F,PSB National Bank,PSBN,Current,Expired,2019-08-19,Kolkata,normal
+ICIC92820305,Karan Verma,M,ICICI Bank,ICIC,Fixed Deposit,Verified,2020-06-29,Nagpur,normal
+PSBN91594977,Ajay Iyengar,M,PSB National Bank,PSBN,NRI,Expired,2023-03-31,Chandigarh,normal
+KOTK81962094,Nandini Tiwari,F,Kotak Mahindra Bank,KOTK,Fixed Deposit,Expired,2020-11-21,Delhi,normal
+PSBN42980201,Bharat Menon,M,PSB National Bank,PSBN,Joint,Verified,2020-10-25,Delhi,structuring_receiver
+BARB49081432,Girish Gupta,M,Bank of Baroda,BARB,NRI,Verified,2019-12-06,Lucknow,normal
+KOTK17321129,Ajay Mishra,M,Kotak Mahindra Bank,KOTK,Joint,Verified,2022-09-27,Nagpur,normal
+AXIS25189633,Bharat Desai,M,Axis Bank,AXIS,Joint,Expired,2017-01-06,Visakhapatnam,normal
+ICIC13343647,Disha Bhatt,F,ICICI Bank,ICIC,NRI,Pending Review,2017-01-02,Kolkata,layering
+UBIN97050454,Ravi Bajaj,M,Union Bank of India,UBIN,Current,Expired,2022-12-24,Chennai,normal
+UBIN21449650,Manju Luthra,F,Union Bank of India,UBIN,Fixed Deposit,Verified,2020-11-15,Vadodara,normal
+AXIS61084208,Anil Hegde,M,Axis Bank,AXIS,Current,Verified,2015-06-29,Coimbatore,normal
+PNBK34007090,Sanjay Joshi,M,Punjab National Bank,PNBK,Fixed Deposit,Verified,2023-08-17,Bhopal,circular_flow
+CNRB94081078,Nandini Luthra,F,Canara Bank,CNRB,Savings,Verified,2017-01-10,Kolkata,normal
+PSBN71557975,Padma Bajaj,F,PSB National Bank,PSBN,NRI,Pending Review,2020-07-31,Mumbai,structuring_receiver
+BARB89035763,Eshan Chopra,M,Bank of Baroda,BARB,NRI,Verified,2022-05-25,Bhopal,normal
+PSBN42844845,Juhi Vyas,F,PSB National Bank,PSBN,Joint,Verified,2024-11-22,Thiruvananthapuram,normal
+PNBK29898606,Harsh Gupta,M,Punjab National Bank,PNBK,Fixed Deposit,Verified,2015-08-14,Delhi,normal
+KOTK50056146,Sneha Tiwari,F,Kotak Mahindra Bank,KOTK,Savings,Verified,2018-09-18,Chennai,normal
+CNRB92019078,Sunita Joshi,F,Canara Bank,CNRB,Fixed Deposit,Expired,2022-05-31,Thiruvananthapuram,normal
+ICIC87707540,Ishaan Verma,M,ICICI Bank,ICIC,Savings,Verified,2019-01-15,Lucknow,layering
+SBIN67354434,Uma Hegde,F,State Bank of India,SBIN,Joint,Verified,2024-06-16,Lucknow,normal
+UBIN80739820,Arjun Agarwal,M,Union Bank of India,UBIN,Joint,Verified,2019-08-22,Kolkata,normal
+AXIS21766833,Mohan Tiwari,M,Axis Bank,AXIS,Fixed Deposit,Expired,2020-06-04,Thiruvananthapuram,normal
+KOTK52478375,Nikhil Khanna,M,Kotak Mahindra Bank,KOTK,Joint,Pending Review,2017-11-29,Thiruvananthapuram,normal
+KOTK76625267,Deepa Yadav,F,Kotak Mahindra Bank,KOTK,Fixed Deposit,Expired,2020-10-29,Surat,normal
+BARB48988647,Deepak Yadav,M,Bank of Baroda,BARB,Savings,Verified,2017-03-03,Mumbai,normal
+KOTK65650977,Arjun Rao,M,Kotak Mahindra Bank,KOTK,Savings,Verified,2019-08-23,Kochi,normal
+BARB47799296,Harsh Sharma,M,Bank of Baroda,BARB,Savings,Verified,2017-11-08,Lucknow,normal
+SBIN54732472,Pankaj Sharma,M,State Bank of India,SBIN,NRI,Expired,2018-10-30,Coimbatore,normal
+BARB54360949,Amit Verma,M,Bank of Baroda,BARB,Salary,Expired,2024-05-08,Surat,normal
+ICIC30855594,Vikram Mehta,M,ICICI Bank,ICIC,NRI,Re-KYC Due,2022-01-13,Visakhapatnam,circular_flow
+PSBN79937264,Chetan Jain,M,PSB National Bank,PSBN,Joint,Expired,2018-05-11,Chandigarh,layering
+KOTK54522609,Amit Rao,M,Kotak Mahindra Bank,KOTK,Salary,Verified,2023-12-19,Hyderabad,normal
+HDFC94088862,Priya Chauhan,F,HDFC Bank,HDFC,Current,Pending Review,2020-12-28,Thiruvananthapuram,normal
+CNRB52211394,Juhi Iyer,F,Canara Bank,CNRB,Savings,Verified,2022-12-17,Bhopal,normal
+UBIN70653840,Uma Chopra,F,Union Bank of India,UBIN,Salary,Verified,2024-04-20,Vadodara,normal
+PSBN37125189,Meena Garg,F,PSB National Bank,PSBN,NRI,Pending Review,2016-01-15,Mumbai,normal
+BARB55649583,Farhan Nair,M,Bank of Baroda,BARB,Fixed Deposit,Re-KYC Due,2020-06-03,Vadodara,normal
+SBIN79276026,Aarti Nair,F,State Bank of India,SBIN,Current,Verified,2022-08-03,Delhi,normal
+PSBN51739205,Girish Iyer,M,PSB National Bank,PSBN,Fixed Deposit,Re-KYC Due,2015-06-30,Thiruvananthapuram,layering
+PSBN23838227,Rahul Menon,M,PSB National Bank,PSBN,Fixed Deposit,Expired,2020-11-02,Lucknow,normal
+BARB53067834,Padma Kapoor,F,Bank of Baroda,BARB,Current,Verified,2017-04-01,Jaipur,normal
+CNRB30041488,Bharat Iyer,M,Canara Bank,CNRB,Salary,Verified,2016-10-07,Mumbai,normal
+SBIN37726346,Ishaan Pandey,M,State Bank of India,SBIN,Salary,Pending Review,2021-01-31,Chandigarh,normal
+KOTK42859865,Manju Mishra,F,Kotak Mahindra Bank,KOTK,Savings,Verified,2016-12-02,Thiruvananthapuram,normal
+PSBN27458237,Hemant Luthra,M,PSB National Bank,PSBN,NRI,Expired,2015-04-29,Delhi,normal
+HDFC62602177,Sneha Desai,F,HDFC Bank,HDFC,Fixed Deposit,Pending Review,2017-01-03,Coimbatore,normal
+UBIN51935074,Bharat Yadav,M,Union Bank of India,UBIN,Current,Expired,2018-09-23,Visakhapatnam,circular_flow
+KOTK27689263,Vandana Menon,F,Kotak Mahindra Bank,KOTK,Fixed Deposit,Verified,2016-01-16,Chennai,normal
+BARB40037183,Chetan Naik,M,Bank of Baroda,BARB,Joint,Verified,2016-08-11,Kochi,normal
+UBIN70838623,Manju Chauhan,F,Union Bank of India,UBIN,Savings,Verified,2020-06-19,Surat,normal
+PNBK47883942,Fatima Menon,F,Punjab National Bank,PNBK,Salary,Pending Review,2023-08-12,Coimbatore,normal
+SBIN53737494,Meena Iyengar,F,State Bank of India,SBIN,Fixed Deposit,Verified,2021-03-27,Lucknow,layering
+HDFC42021033,Vinod Upadhyay,M,HDFC Bank,HDFC,Current,Pending Review,2021-12-18,Pune,normal
+UBIN37949250,Uday Singh,M,Union Bank of India,UBIN,Fixed Deposit,Pending Review,2024-02-16,Bhopal,normal
+UBIN83085160,Ajay Tiwari,M,Union Bank of India,UBIN,Current,Verified,2022-10-14,Bangalore,normal
+SBIN89478790,Jatin Oberoi,M,State Bank of India,SBIN,NRI,Verified,2021-09-07,Visakhapatnam,normal
+CNRB64464708,Ekta Verma,F,Canara Bank,CNRB,Joint,Verified,2015-10-13,Thiruvananthapuram,normal
+ICIC96568973,Uday Bhatt,M,ICICI Bank,ICIC,Savings,Verified,2022-05-28,Kolkata,normal
+PNBK98701999,Kartik Sharma,M,Punjab National Bank,PNBK,NRI,Pending Review,2016-09-03,Lucknow,normal
+BARB37603443,Isha Luthra,F,Bank of Baroda,BARB,Salary,Verified,2022-08-23,Coimbatore,normal
+UBIN21983952,Om Khanna,M,Union Bank of India,UBIN,Savings,Pending Review,2021-07-14,Vadodara,normal
+PSBN59556257,Deepa Mishra,F,PSB National Bank,PSBN,Savings,Verified,2021-02-26,Visakhapatnam,normal
+CNRB14185545,Sachin Iyer,M,Canara Bank,CNRB,NRI,Expired,2017-08-21,Coimbatore,normal
+HDFC61212793,Aarti Hegde,F,HDFC Bank,HDFC,Joint,Verified,2019-11-18,Pune,normal
+HDFC58357021,Gaurav Saxena,M,HDFC Bank,HDFC,NRI,Verified,2024-06-02,Lucknow,normal
+PSBN19629584,Rohan Mehta,M,PSB National Bank,PSBN,Savings,Verified,2022-04-09,Surat,normal
+PNBK96200382,Rohan Desai,M,Punjab National Bank,PNBK,NRI,Re-KYC Due,2024-01-15,Nagpur,layering
+KOTK34131995,Lalit Khanna,M,Kotak Mahindra Bank,KOTK,Joint,Verified,2020-02-05,Visakhapatnam,circular_flow
+BARB34936450,Uday Dubey,M,Bank of Baroda,BARB,Joint,Verified,2019-10-06,Coimbatore,normal
+CNRB65141717,Kunal Pandey,M,Canara Bank,CNRB,Joint,Verified,2021-02-15,Delhi,circular_flow
+UBIN25188664,Jatin Naik,M,Union Bank of India,UBIN,NRI,Expired,2021-07-04,Bangalore,normal
+CNRB72402697,Nandini Qureshi,F,Canara Bank,CNRB,Savings,Pending Review,2020-10-18,Thiruvananthapuram,normal
+AXIS87796412,Fatima Singh,F,Axis Bank,AXIS,Joint,Verified,2018-07-03,Chandigarh,circular_flow
+ICIC78808477,Rajesh Naik,M,ICICI Bank,ICIC,Joint,Expired,2020-04-05,Chandigarh,normal
+CNRB32482565,Rachna Mishra,F,Canara Bank,CNRB,Fixed Deposit,Pending Review,2015-05-25,Lucknow,normal
+PSBN94463223,Jatin Bajaj,M,PSB National Bank,PSBN,Joint,Verified,2020-04-22,Coimbatore,normal
+PSBN48495745,Divya Yadav,F,PSB National Bank,PSBN,Savings,Verified,2020-06-08,Vadodara,normal
+CNRB27789051,Rachna Agarwal,F,Canara Bank,CNRB,Salary,Verified,2021-11-27,Jaipur,normal
+PNBK89426041,Meena Vyas,F,Punjab National Bank,PNBK,Current,Expired,2023-04-15,Nagpur,normal
+BARB75084661,Sunita Bajaj,F,Bank of Baroda,BARB,Joint,Re-KYC Due,2017-01-10,Delhi,circular_flow
+KOTK30689702,Anita Nair,F,Kotak Mahindra Bank,KOTK,NRI,Re-KYC Due,2024-05-23,Bhopal,normal
+PNBK38300713,Kunal Luthra,M,Punjab National Bank,PNBK,Fixed Deposit,Re-KYC Due,2021-06-24,Kochi,layering
+PSBN32494944,Pooja Iyer,F,PSB National Bank,PSBN,NRI,Verified,2020-03-15,Lucknow,normal
+HDFC62354374,Hemant Malhotra,M,HDFC Bank,HDFC,Salary,Verified,2020-04-27,Vadodara,normal
+ICIC61271721,Rajesh Mishra,M,ICICI Bank,ICIC,Salary,Pending Review,2022-08-11,Delhi,normal
+HDFC91937985,Heena Dubey,F,HDFC Bank,HDFC,Salary,Verified,2022-04-24,Jaipur,normal
+KOTK62499769,Meena Bajaj,F,Kotak Mahindra Bank,KOTK,Fixed Deposit,Expired,2020-03-03,Ahmedabad,normal
+AXIS55285947,Kartik Das,M,Axis Bank,AXIS,Fixed Deposit,Verified,2022-08-07,Chandigarh,normal
+PSBN65196875,Rajesh Singh,M,PSB National Bank,PSBN,Joint,Verified,2016-02-05,Nagpur,normal
+CNRB35914696,Nandini Mishra,F,Canara Bank,CNRB,Savings,Pending Review,2015-05-20,Bangalore,normal
+KOTK95642035,Juhi Rao,F,Kotak Mahindra Bank,KOTK,Fixed Deposit,Verified,2016-05-13,Bangalore,normal
+KOTK34799223,Rohan Hegde,M,Kotak Mahindra Bank,KOTK,Fixed Deposit,Verified,2016-03-30,Jaipur,structuring_receiver
+ICIC47095573,Lata Singh,F,ICICI Bank,ICIC,NRI,Expired,2023-08-18,Chandigarh,normal
+CNRB18373492,Padma Singh,F,Canara Bank,CNRB,NRI,Verified,2019-04-17,Delhi,normal
+PNBK69132953,Sarita Bajaj,F,Punjab National Bank,PNBK,NRI,Verified,2016-04-18,Thiruvananthapuram,dormant_reactivation
+SBIN29310253,Komal Oberoi,F,State Bank of India,SBIN,NRI,Verified,2021-01-23,Thiruvananthapuram,normal
+SBIN14678950,Bharat Bajaj,M,State Bank of India,SBIN,Savings,Pending Review,2015-10-26,Jaipur,layering
+PNBK97626101,Amit Oberoi,M,Punjab National Bank,PNBK,Savings,Verified,2022-03-07,Indore,normal
+HDFC87126909,Manju Chauhan,F,HDFC Bank,HDFC,Joint,Expired,2015-01-16,Surat,normal
+AXIS40312650,Vinod Singh,M,Axis Bank,AXIS,NRI,Expired,2015-01-14,Surat,normal
+UBIN50644896,Heena Dubey,F,Union Bank of India,UBIN,Savings,Expired,2019-06-29,Bangalore,normal
+SBIN71691749,Tanvi Chauhan,F,State Bank of India,SBIN,Salary,Expired,2023-07-12,Kolkata,normal
+BARB50113698,Sneha Hegde,F,Bank of Baroda,BARB,NRI,Verified,2022-10-21,Kochi,normal
+PNBK14791343,Bharat Das,M,Punjab National Bank,PNBK,Savings,Expired,2017-03-01,Coimbatore,normal
+AXIS96356711,Chhaya Singh,F,Axis Bank,AXIS,NRI,Pending Review,2018-06-14,Nagpur,normal
+UBIN17523501,Amit Kumar,M,Union Bank of India,UBIN,Fixed Deposit,Verified,2018-10-15,Indore,normal
+ICIC82016051,Rachna Qureshi,F,ICICI Bank,ICIC,Fixed Deposit,Pending Review,2016-09-02,Ahmedabad,normal
+ICIC97755782,Vikram Nair,M,ICICI Bank,ICIC,NRI,Pending Review,2015-03-20,Delhi,normal
+PSBN33118870,Komal Mehta,F,PSB National Bank,PSBN,Savings,Verified,2022-02-04,Chennai,layering
+SBIN24271532,Anil Upadhyay,M,State Bank of India,SBIN,NRI,Pending Review,2016-04-12,Thiruvananthapuram,normal
+HDFC55277425,Rachna Das,F,HDFC Bank,HDFC,Fixed Deposit,Expired,2024-02-06,Indore,normal
+AXIS28432040,Lata Tiwari,F,Axis Bank,AXIS,Current,Re-KYC Due,2018-08-10,Delhi,normal
+SBIN46761344,Rahul Singh,M,State Bank of India,SBIN,NRI,Verified,2016-08-01,Kochi,normal
+KOTK15462513,Bharat Chopra,M,Kotak Mahindra Bank,KOTK,Savings,Re-KYC Due,2016-06-30,Thiruvananthapuram,normal
+ICIC20834405,Sunita Patel,F,ICICI Bank,ICIC,Savings,Verified,2015-01-27,Bangalore,normal
+HDFC73889312,Kartik Mishra,M,HDFC Bank,HDFC,Current,Verified,2022-10-06,Hyderabad,normal
+HDFC42112095,Girish Luthra,M,HDFC Bank,HDFC,Joint,Expired,2016-12-15,Delhi,normal
+SBIN94180238,Eshan Yadav,M,State Bank of India,SBIN,Salary,Verified,2024-04-08,Bhopal,normal
+SBIN81162107,Neha Das,F,State Bank of India,SBIN,Joint,Verified,2016-01-27,Visakhapatnam,normal
+CNRB17122803,Chetan Rao,M,Canara Bank,CNRB,Savings,Re-KYC Due,2017-03-04,Hyderabad,normal
+PNBK31442569,Dhruv Oberoi,M,Punjab National Bank,PNBK,Savings,Verified,2022-07-07,Kochi,structuring_sender
+UBIN92788091,Disha Bajaj,F,Union Bank of India,UBIN,NRI,Verified,2024-01-11,Chennai,normal
+PNBK13901068,Hemant Verma,M,Punjab National Bank,PNBK,Joint,Verified,2020-06-09,Bangalore,normal
+KOTK53751263,Bharat Upadhyay,M,Kotak Mahindra Bank,KOTK,Current,Expired,2019-09-13,Chandigarh,normal
+BARB23161945,Meena Bhatt,F,Bank of Baroda,BARB,Fixed Deposit,Verified,2017-08-29,Kolkata,normal
+ICIC88529753,Neha Singh,F,ICICI Bank,ICIC,Savings,Verified,2020-06-07,Hyderabad,normal
+PNBK61986593,Juhi Menon,F,Punjab National Bank,PNBK,Current,Verified,2019-03-10,Kolkata,normal
+UBIN27074074,Manish Das,M,Union Bank of India,UBIN,Fixed Deposit,Pending Review,2015-05-12,Delhi,normal
+ICIC66133052,Meena Menon,F,ICICI Bank,ICIC,Salary,Verified,2016-12-02,Lucknow,normal
+KOTK84189605,Mayank Joshi,M,Kotak Mahindra Bank,KOTK,Current,Verified,2024-08-03,Bhopal,structuring_receiver
+KOTK73550616,Eshan Rao,M,Kotak Mahindra Bank,KOTK,NRI,Verified,2024-05-21,Mumbai,normal
+UBIN68283876,Kunal Chopra,M,Union Bank of India,UBIN,Current,Pending Review,2021-07-01,Hyderabad,normal
+PSBN15376584,Rajesh Jain,M,PSB National Bank,PSBN,Fixed Deposit,Re-KYC Due,2020-04-11,Vadodara,normal
+ICIC23153230,Gauri Iyengar,F,ICICI Bank,ICIC,NRI,Verified,2020-01-28,Bangalore,circular_flow
+BARB27812303,Rajesh Jain,M,Bank of Baroda,BARB,Salary,Verified,2019-01-08,Bangalore,normal
+PNBK71643898,Lata Kapoor,F,Punjab National Bank,PNBK,Joint,Expired,2024-08-15,Coimbatore,normal
+PNBK64406548,Ekta Menon,F,Punjab National Bank,PNBK,Salary,Expired,2017-01-27,Nagpur,normal
+HDFC54681905,Rajesh Singh,M,HDFC Bank,HDFC,Savings,Verified,2020-12-14,Bhopal,circular_flow
+KOTK37802722,Mayank Rathore,M,Kotak Mahindra Bank,KOTK,Fixed Deposit,Verified,2023-11-01,Thiruvananthapuram,normal
+UBIN16920612,Suresh Pandey,M,Union Bank of India,UBIN,NRI,Verified,2016-03-30,Nagpur,circular_flow
+PNBK96996261,Tarun Garg,M,Punjab National Bank,PNBK,Fixed Deposit,Verified,2021-04-07,Visakhapatnam,normal
+UBIN42028739,Harsh Mehta,M,Union Bank of India,UBIN,Savings,Expired,2021-01-19,Surat,normal
+BARB53011925,Kartik Rao,M,Bank of Baroda,BARB,Salary,Pending Review,2018-12-15,Bhopal,normal
+UBIN70721529,Anita Garg,F,Union Bank of India,UBIN,Joint,Pending Review,2020-06-14,Chennai,normal
+CNRB70663511,Hemant Rathore,M,Canara Bank,CNRB,Salary,Re-KYC Due,2021-12-18,Bangalore,normal
+SBIN20760289,Uma Menon,F,State Bank of India,SBIN,Current,Verified,2019-05-20,Bangalore,layering
+PNBK76616115,Pooja Iyer,F,Punjab National Bank,PNBK,Current,Pending Review,2016-09-08,Mumbai,normal
+PNBK73606441,Lata Rathore,F,Punjab National Bank,PNBK,NRI,Verified,2018-11-21,Mumbai,normal
+BARB79742280,Anita Patel,F,Bank of Baroda,BARB,Salary,Verified,2022-03-25,Coimbatore,normal
+ICIC89639062,Komal Bhatt,F,ICICI Bank,ICIC,Fixed Deposit,Pending Review,2022-06-20,Visakhapatnam,structuring_receiver
+PNBK51137063,Divya Tiwari,F,Punjab National Bank,PNBK,Salary,Verified,2016-12-04,Surat,structuring_receiver
+PNBK57395084,Divya Gupta,F,Punjab National Bank,PNBK,NRI,Verified,2018-03-10,Thiruvananthapuram,structuring_sender
+PNBK33536332,Hemant Mishra,M,Punjab National Bank,PNBK,Fixed Deposit,Expired,2024-05-30,Hyderabad,normal
+UBIN87111463,Meena Kumar,F,Union Bank of India,UBIN,NRI,Verified,2016-06-02,Kochi,normal
+UBIN56150365,Heena Kumar,F,Union Bank of India,UBIN,Salary,Verified,2016-08-28,Visakhapatnam,layering
+SBIN13345404,Hemant Kapoor,M,State Bank of India,SBIN,NRI,Re-KYC Due,2015-11-01,Hyderabad,dormant_reactivation
+PSBN83302419,Pankaj Nair,M,PSB National Bank,PSBN,Salary,Expired,2020-09-09,Lucknow,normal
+PNBK85864089,Nikhil Tiwari,M,Punjab National Bank,PNBK,NRI,Verified,2023-03-04,Chennai,normal
+AXIS25686844,Vikram Mehta,M,Axis Bank,AXIS,Savings,Verified,2018-06-15,Thiruvananthapuram,normal
+SBIN53804166,Bharat Dubey,M,State Bank of India,SBIN,Joint,Expired,2015-08-14,Kolkata,normal
+BARB13026428,Jai Agarwal,M,Bank of Baroda,BARB,Joint,Re-KYC Due,2015-12-09,Nagpur,circular_flow
+HDFC36098642,Ravi Pandey,M,HDFC Bank,HDFC,Salary,Pending Review,2020-07-01,Thiruvananthapuram,circular_flow
+HDFC29856967,Suresh Garg,M,HDFC Bank,HDFC,NRI,Verified,2023-01-11,Indore,normal
+UBIN51350514,Divya Dubey,F,Union Bank of India,UBIN,Joint,Verified,2019-12-31,Kolkata,normal
+ICIC48739802,Bharat Jain,M,ICICI Bank,ICIC,Fixed Deposit,Verified,2016-11-01,Bhopal,normal
+SBIN29278938,Isha Vyas,F,State Bank of India,SBIN,Salary,Verified,2017-05-01,Vadodara,circular_flow
+HDFC21871327,Karan Upadhyay,M,HDFC Bank,HDFC,NRI,Expired,2015-01-28,Jaipur,normal
+KOTK28378036,Heena Menon,F,Kotak Mahindra Bank,KOTK,Current,Re-KYC Due,2017-03-27,Indore,circular_flow
+CNRB88545322,Fatima Kumar,F,Canara Bank,CNRB,NRI,Pending Review,2018-05-29,Nagpur,normal
+PNBK45255913,Rachna Sharma,F,Punjab National Bank,PNBK,Fixed Deposit,Re-KYC Due,2018-05-14,Surat,normal
+HDFC34074943,Lata Mishra,F,HDFC Bank,HDFC,Fixed Deposit,Expired,2020-07-07,Ahmedabad,normal
+ICIC18955654,Padma Agarwal,F,ICICI Bank,ICIC,Fixed Deposit,Verified,2021-09-19,Coimbatore,normal
+ICIC26050250,Ajay Bajaj,M,ICICI Bank,ICIC,Joint,Expired,2019-03-09,Coimbatore,normal
+KOTK17853132,Pooja Joshi,F,Kotak Mahindra Bank,KOTK,Salary,Verified,2016-08-21,Hyderabad,normal
+UBIN66306216,Sneha Agarwal,F,Union Bank of India,UBIN,Salary,Verified,2022-02-19,Lucknow,normal
+AXIS36013386,Komal Singh,F,Axis Bank,AXIS,Fixed Deposit,Verified,2023-08-06,Chennai,normal
+UBIN52441045,Anil Rathore,M,Union Bank of India,UBIN,Fixed Deposit,Re-KYC Due,2024-04-09,Lucknow,normal
+SBIN81728681,Manju Garg,F,State Bank of India,SBIN,Salary,Re-KYC Due,2021-07-03,Hyderabad,normal
+UBIN75082045,Gauri Mishra,F,Union Bank of India,UBIN,Salary,Verified,2019-08-15,Chennai,normal
+BARB84981433,Gauri Malhotra,F,Bank of Baroda,BARB,Fixed Deposit,Re-KYC Due,2021-11-17,Vadodara,normal
+HDFC71806103,Ishaan Iyer,M,HDFC Bank,HDFC,Savings,Re-KYC Due,2015-11-09,Hyderabad,normal
+CNRB58663129,Dhruv Dubey,M,Canara Bank,CNRB,NRI,Pending Review,2016-07-23,Vadodara,circular_flow
+CNRB13860039,Rahul Verma,M,Canara Bank,CNRB,Savings,Verified,2016-04-10,Hyderabad,dormant_reactivation
+CNRB26823411,Sanjay Malhotra,M,Canara Bank,CNRB,Current,Verified,2017-05-09,Bhopal,normal
+PSBN74995591,Arjun Singh,M,PSB National Bank,PSBN,NRI,Verified,2023-06-30,Kolkata,normal
+KOTK17954445,Rachna Pandey,F,Kotak Mahindra Bank,KOTK,Savings,Verified,2020-04-05,Delhi,normal
+SBIN26615289,Lata Sharma,F,State Bank of India,SBIN,Current,Pending Review,2021-09-30,Kolkata,normal
+SBIN29536326,Bhavna Patel,F,State Bank of India,SBIN,Fixed Deposit,Verified,2024-06-26,Coimbatore,normal
+KOTK42456869,Sunita Pandey,F,Kotak Mahindra Bank,KOTK,Joint,Verified,2020-08-30,Chennai,normal
+BARB35709072,Rajesh Qureshi,M,Bank of Baroda,BARB,Current,Re-KYC Due,2018-02-28,Visakhapatnam,normal
+BARB77671943,Nandini Reddy,F,Bank of Baroda,BARB,Fixed Deposit,Verified,2024-07-18,Kochi,normal
+SBIN34273079,Deepak Luthra,M,State Bank of India,SBIN,Salary,Verified,2024-05-12,Bhopal,normal
+SBIN52181984,Neha Jain,F,State Bank of India,SBIN,NRI,Verified,2016-05-21,Vadodara,normal
+CNRB84777007,Padma Garg,F,Canara Bank,CNRB,Savings,Verified,2023-02-05,Chandigarh,layering
+ICIC90582915,Uday Mishra,M,ICICI Bank,ICIC,Salary,Expired,2023-04-04,Nagpur,normal
+HDFC35338291,Disha Mishra,F,HDFC Bank,HDFC,Savings,Re-KYC Due,2024-08-10,Surat,normal
+PSBN75987927,Tarun Verma,M,PSB National Bank,PSBN,Savings,Verified,2022-07-15,Nagpur,normal
+PNBK62990697,Ravi Iyer,M,Punjab National Bank,PNBK,Fixed Deposit,Pending Review,2019-06-29,Chennai,normal
+UBIN36720922,Anil Singh,M,Union Bank of India,UBIN,Current,Pending Review,2018-10-19,Indore,normal
+ICIC47382097,Sarita Khanna,F,ICICI Bank,ICIC,Fixed Deposit,Re-KYC Due,2023-07-30,Coimbatore,normal
+ICIC99479873,Vinod Dubey,M,ICICI Bank,ICIC,NRI,Verified,2021-10-06,Vadodara,circular_flow
+SBIN26400072,Padma Menon,F,State Bank of India,SBIN,NRI,Verified,2017-10-23,Ahmedabad,normal
+SBIN17093731,Rohan Patel,M,State Bank of India,SBIN,Savings,Verified,2024-04-23,Mumbai,normal
+UBIN30499966,Uday Vyas,M,Union Bank of India,UBIN,Joint,Pending Review,2018-05-25,Chennai,normal
+ICIC37102821,Girish Oberoi,M,ICICI Bank,ICIC,Fixed Deposit,Verified,2018-04-17,Surat,normal
+AXIS83366099,Hemant Chauhan,M,Axis Bank,AXIS,Savings,Verified,2015-03-14,Chennai,normal
+ICIC71694016,Aarti Hegde,F,ICICI Bank,ICIC,Savings,Verified,2015-05-28,Visakhapatnam,normal
+ICIC67805041,Om Joshi,M,ICICI Bank,ICIC,Salary,Expired,2016-07-04,Indore,normal
+ICIC98594248,Arjun Tiwari,M,ICICI Bank,ICIC,Fixed Deposit,Pending Review,2021-03-18,Coimbatore,normal
+AXIS17480910,Ishaan Joshi,M,Axis Bank,AXIS,Salary,Verified,2019-05-23,Coimbatore,normal
+CNRB53014471,Mayank Dubey,M,Canara Bank,CNRB,Savings,Pending Review,2015-09-09,Delhi,normal
+KOTK13610435,Bhavna Dubey,F,Kotak Mahindra Bank,KOTK,Fixed Deposit,Verified,2023-08-01,Indore,circular_flow
+HDFC57146562,Bhavna Dubey,F,HDFC Bank,HDFC,Fixed Deposit,Verified,2015-08-20,Ahmedabad,normal
+SBIN18791292,Divya Upadhyay,F,State Bank of India,SBIN,Salary,Verified,2024-09-29,Chandigarh,normal
+PSBN71862210,Heena Bhatt,F,PSB National Bank,PSBN,NRI,Pending Review,2022-05-18,Vadodara,circular_flow
+ICIC88918579,Manish Patel,M,ICICI Bank,ICIC,Salary,Verified,2015-04-02,Coimbatore,normal
+ICIC23429380,Isha Reddy,F,ICICI Bank,ICIC,Fixed Deposit,Verified,2022-09-30,Chandigarh,normal
+KOTK50201014,Rahul Joshi,M,Kotak Mahindra Bank,KOTK,NRI,Verified,2019-01-28,Surat,normal
+BARB48568210,Karan Rathore,M,Bank of Baroda,BARB,Savings,Verified,2017-12-22,Coimbatore,normal
+SBIN87603784,Neha Yadav,F,State Bank of India,SBIN,Joint,Verified,2016-01-24,Jaipur,structuring_receiver
+ICIC67325182,Rachna Qureshi,F,ICICI Bank,ICIC,Salary,Re-KYC Due,2017-05-09,Bangalore,normal
+CNRB68104261,Om Pandey,M,Canara Bank,CNRB,Joint,Verified,2022-06-10,Kolkata,normal
+AXIS70831313,Pooja Yadav,F,Axis Bank,AXIS,Joint,Verified,2022-07-13,Mumbai,layering
+KOTK77001977,Girish Verma,M,Kotak Mahindra Bank,KOTK,Fixed Deposit,Re-KYC Due,2016-11-17,Nagpur,dormant_reactivation
+KOTK68213514,Komal Rathore,F,Kotak Mahindra Bank,KOTK,Fixed Deposit,Expired,2021-05-07,Delhi,normal
+PNBK42262445,Tarun Menon,M,Punjab National Bank,PNBK,Fixed Deposit,Expired,2016-09-08,Lucknow,normal
+SBIN95084307,Yash Bhatt,M,State Bank of India,SBIN,NRI,Verified,2017-04-13,Lucknow,normal
+BARB64474404,Lakshman Vyas,M,Bank of Baroda,BARB,Savings,Verified,2017-09-03,Kolkata,normal
+ICIC75146916,Rachna Kapoor,F,ICICI Bank,ICIC,NRI,Verified,2021-04-12,Delhi,normal
+PSBN44681437,Pooja Mehta,F,PSB National Bank,PSBN,Salary,Expired,2023-11-09,Visakhapatnam,normal
+ICIC12672106,Tanvi Kumar,F,ICICI Bank,ICIC,Savings,Verified,2015-08-15,Thiruvananthapuram,normal
+UBIN98238841,Anita Jain,F,Union Bank of India,UBIN,Savings,Verified,2024-12-06,Hyderabad,structuring_sender
+SBIN80055957,Isha Pandey,F,State Bank of India,SBIN,Joint,Re-KYC Due,2022-06-13,Vadodara,layering
+BARB90506654,Uma Desai,F,Bank of Baroda,BARB,Salary,Verified,2016-05-15,Coimbatore,layering
+BARB29364653,Kunal Khanna,M,Bank of Baroda,BARB,Current,Verified,2016-03-13,Jaipur,normal
+PSBN75814814,Pooja Upadhyay,F,PSB National Bank,PSBN,Salary,Expired,2020-12-25,Chennai,normal
+BARB47276794,Disha Naik,F,Bank of Baroda,BARB,Current,Verified,2024-11-11,Surat,normal
+KOTK14672042,Om Patel,M,Kotak Mahindra Bank,KOTK,Fixed Deposit,Expired,2024-06-08,Delhi,normal
+AXIS61632246,Kunal Bajaj,M,Axis Bank,AXIS,Fixed Deposit,Expired,2018-06-20,Kochi,normal
+BARB69378298,Arjun Rathore,M,Bank of Baroda,BARB,Savings,Verified,2019-05-11,Jaipur,normal
+CNRB38237596,Vandana Chopra,F,Canara Bank,CNRB,Current,Verified,2024-08-21,Chandigarh,normal
+CNRB20750109,Yash Kumar,M,Canara Bank,CNRB,NRI,Verified,2024-03-25,Bhopal,normal
+SBIN31520919,Rahul Khanna,M,State Bank of India,SBIN,Salary,Pending Review,2022-10-31,Bangalore,structuring_sender
+UBIN70835762,Juhi Saxena,F,Union Bank of India,UBIN,Savings,Re-KYC Due,2022-10-18,Delhi,normal
+PNBK10412827,Deepak Luthra,M,Punjab National Bank,PNBK,Current,Expired,2019-06-30,Lucknow,normal
+PNBK43501223,Anita Iyer,F,Punjab National Bank,PNBK,Fixed Deposit,Re-KYC Due,2020-10-16,Hyderabad,normal
+ICIC74205127,Yash Bhatt,M,ICICI Bank,ICIC,Fixed Deposit,Verified,2024-10-17,Jaipur,normal
+CNRB36664193,Isha Bhatt,F,Canara Bank,CNRB,NRI,Verified,2015-12-12,Pune,normal
+BARB12782955,Chhaya Tiwari,F,Bank of Baroda,BARB,Joint,Expired,2015-04-05,Thiruvananthapuram,normal
+BARB45135941,Ravi Menon,M,Bank of Baroda,BARB,Current,Verified,2022-11-12,Indore,normal
+PNBK21953600,Lalit Bajaj,M,Punjab National Bank,PNBK,Current,Pending Review,2019-02-16,Chennai,normal
+ICIC76323560,Gauri Khanna,F,ICICI Bank,ICIC,Current,Expired,2016-04-30,Kolkata,normal
+CNRB76326127,Tanvi Agarwal,F,Canara Bank,CNRB,Current,Verified,2019-04-14,Kolkata,normal
+HDFC34208834,Nikhil Das,M,HDFC Bank,HDFC,Current,Verified,2019-08-01,Lucknow,normal
+ICIC43328672,Kunal Yadav,M,ICICI Bank,ICIC,Joint,Expired,2019-02-23,Nagpur,normal
+UBIN63358890,Fatima Mehta,F,Union Bank of India,UBIN,Current,Expired,2022-09-14,Indore,normal
+SBIN22788187,Lalit Bajaj,M,State Bank of India,SBIN,Savings,Verified,2021-03-31,Chandigarh,normal
+KOTK90293348,Dhruv Dubey,M,Kotak Mahindra Bank,KOTK,Fixed Deposit,Re-KYC Due,2022-12-16,Delhi,normal
+HDFC50601849,Gauri Yadav,F,HDFC Bank,HDFC,Fixed Deposit,Verified,2019-06-05,Hyderabad,circular_flow
+KOTK34074932,Ishaan Kumar,M,Kotak Mahindra Bank,KOTK,Current,Pending Review,2017-12-02,Surat,circular_flow
+SBIN52589618,Chetan Mehta,M,State Bank of India,SBIN,Joint,Verified,2022-12-19,Hyderabad,normal
+PNBK77002914,Aarti Kumar,F,Punjab National Bank,PNBK,Salary,Expired,2024-10-10,Kochi,normal
+KOTK45400991,Nikhil Bajaj,M,Kotak Mahindra Bank,KOTK,Salary,Verified,2020-10-18,Pune,normal
+AXIS98237348,Fatima Nair,F,Axis Bank,AXIS,NRI,Verified,2022-02-20,Kolkata,normal
+PSBN73115555,Neha Verma,F,PSB National Bank,PSBN,Current,Expired,2017-12-01,Nagpur,normal

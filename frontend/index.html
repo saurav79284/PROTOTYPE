@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FundFlow Intelligence | Real-Time Fraud Detection Dashboard</title>
+    <meta name="description" content="AI-powered fund tracking and fraud detection system for banking - Graph Analytics, ML Ensemble, STR Automation">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%232563eb'/><stop offset='100%' stop-color='%237c3aed'/></linearGradient></defs><circle cx='50' cy='50' r='45' fill='url(%23g)'/><path d='M50 20 L70 35 L70 55 Q70 70 50 80 Q30 70 30 55 L30 35 Z' fill='white' opacity='0.95'/><path d='M45 55 L40 50 L43 47 L45 49 L57 37 L60 40 Z' fill='%232563eb'/></svg>">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+        <div class="logo">
+            <div class="logo-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="logo-text">
+                <h1>FundFlow Intelligence</h1>
+                <span>Fraud Detection System</span>
+            </div>
+        </div>
+        <nav class="nav-items">
+            <a class="nav-item active" data-page="dashboard" onclick="switchPage('dashboard')" id="nav-dashboard">
+                <span class="nav-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                </span>
+                <span class="nav-label">Dashboard</span>
+                <span class="nav-desc">Overview &amp; KPIs</span>
+            </a>
+            <a class="nav-item" data-page="transactions" onclick="switchPage('transactions')" id="nav-transactions">
+                <span class="nav-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </span>
+                <span class="nav-label">Transactions</span>
+                <span class="nav-desc">Live feed</span>
+            </a>
+            <a class="nav-item" data-page="alerts" onclick="switchPage('alerts')" id="nav-alerts">
+                <span class="nav-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                </span>
+                <span class="nav-label">Alerts</span>
+                <span class="nav-desc">Flagged items</span>
+                <span class="badge" id="alert-badge">0</span>
+            </a>
+            <a class="nav-item" data-page="graph" onclick="switchPage('graph')" id="nav-graph">
+                <span class="nav-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                </span>
+                <span class="nav-label">Network Graph</span>
+                <span class="nav-desc">Fund flow map</span>
+            </a>
+            <a class="nav-item" data-page="str" onclick="switchPage('str')" id="nav-str">
+                <span class="nav-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                </span>
+                <span class="nav-label">STR Reports</span>
+                <span class="nav-desc">Regulatory filings</span>
+            </a>
+            <a class="nav-item" data-page="pipeline" onclick="switchPage('pipeline')" id="nav-pipeline">
+                <span class="nav-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                </span>
+                <span class="nav-label">ML Pipeline</span>
+                <span class="nav-desc">How it works</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <div class="sidebar-footer-label">Team Titans · Somaiya University</div>
+            <div class="sidebar-footer-label">PSBs Hackathon 2026</div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <button class="mobile-menu-btn" onclick="toggleSidebar()" id="menu-toggle">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                </button>
+                <div class="breadcrumb" id="breadcrumb">
+                    <span class="breadcrumb-home">Home</span>
+                    <span class="breadcrumb-sep">›</span>
+                    <span class="breadcrumb-current" id="breadcrumb-page">Dashboard</span>
+                </div>
+            </div>
+            <div class="top-bar-right">
+                <button class="btn btn-primary btn-sm" onclick="openNewTxnModal()" id="btn-new-txn" style="margin-right:12px;font-size:12px;">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                    New Transaction
+                </button>
+                <div class="system-status" id="system-status">
+                    <span class="status-dot status-online"></span>
+                    <span>System Online</span>
+                </div>
+                <div class="top-bar-time" id="top-bar-time"></div>
+            </div>
+        </div>
+
+        <!-- ═══ DASHBOARD PAGE ═══ -->
+        <div id="page-dashboard" class="page-view active">
+            <div class="page-header">
+                <div>
+                    <h2>Monitoring Dashboard</h2>
+                    <p class="subtitle">Real-time overview of all transactions, alerts, and system health</p>
+                </div>
+                <div class="header-actions">
+                    <div class="live-indicator"><span class="live-dot"></span> LIVE</div>
+                    <button class="btn btn-primary" onclick="refreshDashboard()" id="btn-refresh-dashboard">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+                        Refresh
+                    </button>
+                </div>
+            </div>
+
+            <!-- Key Metrics -->
+            <div class="section-label">
+                <h3>Key Performance Indicators</h3>
+                <p>Today's summary across all banking channels</p>
+            </div>
+            <div class="stats-grid" id="stats-grid"></div>
+
+            <!-- Two Column Cards -->
+            <div class="content-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h3>Critical Alerts</h3>
+                            <p class="card-subtitle">Transactions that need immediate review</p>
+                        </div>
+                        <button class="btn btn-sm btn-outline" onclick="switchPage('alerts')" id="btn-view-all-alerts">View All →</button>
+                    </div>
+                    <div class="card-body" id="recent-alerts"></div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h3>Live Transaction Feed</h3>
+                            <p class="card-subtitle">Most recent transactions flowing through the system</p>
+                        </div>
+                            <div class="live-indicator live-indicator-sm" id="ws-status"><span class="live-dot"></span> Streaming</div>
+                    </div>
+                    <div class="card-body" id="live-feed" style="max-height:420px;overflow-y:auto;"></div>
+                </div>
+            </div>
+
+            <!-- Charts Section -->
+            <div class="section-label" style="margin-top:4px;">
+                <h3>Live Analytics</h3>
+                <p>Real-time risk trends and channel distribution</p>
+            </div>
+            <div class="content-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h3>Risk Score Trend</h3>
+                            <p class="card-subtitle">Last 20 transactions — composite ML scores over time</p>
+                        </div>
+                    </div>
+                    <div class="card-body" style="padding:12px 16px;"><canvas id="risk-trend-chart" height="220"></canvas></div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h3>Channel Distribution</h3>
+                            <p class="card-subtitle">Transaction volume by banking channel</p>
+                        </div>
+                    </div>
+                    <div class="card-body" style="padding:12px 16px;"><canvas id="channel-chart" height="220"></canvas></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══ TRANSACTIONS PAGE ═══ -->
+        <div id="page-transactions" class="page-view">
+            <div class="page-header">
+                <div>
+                    <h2>Live Transactions</h2>
+                    <p class="subtitle">All transactions being processed in real-time, scored by our ML models</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-primary" onclick="loadTransactions()" id="btn-fetch-transactions">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+                        Fetch New Batch
+                    </button>
+                </div>
+            </div>
+            <div class="info-banner">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                <span><strong>How to read this table:</strong> Each row is a bank transaction. The <em>Risk Score</em> (0–100) is generated by our 4-model ML ensemble. Rows highlighted in red are flagged for investigation.</span>
+            </div>
+            <div class="card">
+                <div class="card-body" style="overflow-x:auto;padding:0;">
+                    <table class="txn-table" id="txn-table">
+                        <thead><tr>
+                            <th>Transaction ID</th>
+                            <th>Time</th>
+                            <th>Sender</th>
+                            <th>Receiver</th>
+                            <th>Amount (₹)</th>
+                            <th>Channel</th>
+                            <th>Risk Score</th>
+                            <th>Risk Level</th>
+                        </tr></thead>
+                        <tbody id="txn-body"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══ ALERTS PAGE ═══ -->
+        <div id="page-alerts" class="page-view">
+            <div class="page-header">
+                <div>
+                    <h2>Alert Management</h2>
+                    <p class="subtitle">Review flagged transactions and take action — approve, dismiss, or escalate to STR</p>
+                </div>
+                <div class="header-actions">
+                    <div class="tabs" id="alert-tabs">
+                        <button class="tab active" onclick="filterAlerts('all',this)">All</button>
+                        <button class="tab" onclick="filterAlerts('PENDING',this)">Pending</button>
+                        <button class="tab" onclick="filterAlerts('INVESTIGATING',this)">Investigating</button>
+                        <button class="tab" onclick="filterAlerts('CRITICAL',this)">Critical</button>
+                    </div>
+                    <button class="btn btn-outline btn-sm" onclick="exportAlertsToCsv()" id="btn-export-alerts">
+                        📥 Export CSV
+                    </button>
+                </div>
+            </div>
+            <div class="info-banner">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                <span><strong>Workflow:</strong> Click any alert to see full details including ML scores, SHAP explanations, and graph patterns. You can then confirm fraud, mark as false positive, or generate an STR report.</span>
+            </div>
+            <div id="alerts-list"></div>
+        </div>
+
+        <!-- ═══ GRAPH PAGE ═══ -->
+        <div id="page-graph" class="page-view">
+            <div class="page-header">
+                <div>
+                    <h2>Network Graph Analytics</h2>
+                    <p class="subtitle">Visualize how money flows between accounts to spot circular or layered patterns</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-primary" onclick="loadGraph()" id="btn-refresh-graph">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+                        Refresh Graph
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title-group">
+                        <h3>Transaction Network</h3>
+                        <p class="card-subtitle">Drag nodes to explore. Click a node to focus on that account.</p>
+                    </div>
+                    <div class="graph-legend">
+                        <span class="legend-item"><span class="legend-dot" style="background:#dc2626;"></span> Suspicious</span>
+                        <span class="legend-item"><span class="legend-dot" style="background:#059669;"></span> Normal</span>
+                        <span class="legend-item"><span class="legend-line"></span> Fund Flow</span>
+                    </div>
+                </div>
+                <div class="card-body" style="padding:0;"><div id="graph-container"></div></div>
+            </div>
+            <div class="section-label" style="margin-top:24px;">
+                <h3>Detected Circular Flows</h3>
+                <p>Suspicious patterns where funds return to the originator through intermediaries</p>
+            </div>
+            <div class="content-grid" id="circular-flows"></div>
+
+            <!-- Mule Accounts Section -->
+            <div class="section-label" style="margin-top:24px;">
+                <h3>Detected Mule Accounts</h3>
+                <p>Accounts that receive from many sources and immediately forward funds — classic money laundering intermediaries</p>
+            </div>
+            <div id="mule-accounts-container"></div>
+        </div>
+
+        <!-- ═══ STR PAGE ═══ -->
+        <div id="page-str" class="page-view">
+            <div class="page-header">
+                <div>
+                    <h2>STR Report Builder</h2>
+                    <p class="subtitle">Auto-generate Suspicious Transaction Reports (FINNET 2.0 format) for RBI/FIU-IND submission</p>
+                </div>
+            </div>
+            <div class="info-banner">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                <span><strong>What is an STR?</strong> A Suspicious Transaction Report is a mandatory regulatory filing when fraud is suspected. Our system auto-drafts these with AI-generated narratives and PII masking.</span>
+            </div>
+            <div id="str-content">
+                <div class="empty-state">
+                    <div class="empty-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    </div>
+                    <p class="empty-title">No STR Reports Yet</p>
+                    <p class="empty-desc">Go to Alerts → click an alert → click "Generate STR" to create a report</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══ PIPELINE PAGE ═══ -->
+        <div id="page-pipeline" class="page-view">
+            <div class="page-header">
+                <div>
+                    <h2>ML Pipeline Architecture</h2>
+                    <p class="subtitle">How our fraud detection system processes each transaction — from ingestion to reporting</p>
+                </div>
+            </div>
+            <div class="info-banner info-banner-blue">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                <span><strong>For non-technical users:</strong> This page explains how the system works. Each transaction passes through 5 stages before it reaches you as an alert or report.</span>
+            </div>
+
+            <div class="section-label">
+                <h3>Processing Pipeline</h3>
+                <p>Each transaction flows through these stages in under 50 milliseconds</p>
+            </div>
+            <div class="pipeline-flow">
+                <div class="pipeline-step" style="border-top: 3px solid #2563eb;">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">📥</div>
+                    <div class="step-label">Data Ingestion</div>
+                    <div class="step-value">Kafka Streams</div>
+                    <div class="step-desc">Receives transactions from UPI, IMPS, RTGS, SWIFT channels</div>
+                </div>
+                <div class="pipeline-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </div>
+                <div class="pipeline-step" style="border-top: 3px solid #7c3aed;">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">🕸️</div>
+                    <div class="step-label">Graph Engine</div>
+                    <div class="step-value">Neo4j + Cypher</div>
+                    <div class="step-desc">Builds fund-flow graphs and detects circular patterns (2-7 hops)</div>
+                </div>
+                <div class="pipeline-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </div>
+                <div class="pipeline-step" style="border-top: 3px solid #d97706;">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">🤖</div>
+                    <div class="step-label">ML Scoring</div>
+                    <div class="step-value">4-Model Ensemble</div>
+                    <div class="step-desc">Scores each transaction with 4 different ML models combined</div>
+                </div>
+                <div class="pipeline-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </div>
+                <div class="pipeline-step" style="border-top: 3px solid #059669;">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">🖥️</div>
+                    <div class="step-label">XAI Dashboard</div>
+                    <div class="step-value">SHAP + HITL</div>
+                    <div class="step-desc">Shows why each alert was triggered with explainable AI</div>
+                </div>
+                <div class="pipeline-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </div>
+                <div class="pipeline-step" style="border-top: 3px solid #0891b2;">
+                    <div class="step-number">5</div>
+                    <div class="step-icon">📄</div>
+                    <div class="step-label">STR Reporting</div>
+                    <div class="step-value">FINNET 2.0</div>
+                    <div class="step-desc">Auto-generates regulatory reports with PII masking</div>
+                </div>
+            </div>
+
+            <div class="content-grid" style="margin-top:20px;">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h3>ML Model Details</h3>
+                            <p class="card-subtitle">Our ensemble uses 4 specialized models, each catching different fraud patterns</p>
+                        </div>
+                    </div>
+                    <div class="card-body"><div class="score-breakdown" id="pipeline-models"></div></div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h3>System Performance</h3>
+                            <p class="card-subtitle">Key metrics showing the system's accuracy and speed</p>
+                        </div>
+                    </div>
+                    <div class="card-body"><div id="pipeline-metrics"></div></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<!-- Alert Detail Modal -->
+<!-- Toast Container -->
+<div id="toast-container"></div>
+
+<div class="modal-overlay" id="alert-modal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3 id="modal-title">Alert Detail</h3>
+            <button class="modal-close" onclick="closeModal()" id="btn-close-modal">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+        </div>
+        <div class="modal-body" id="modal-body"></div>
+    </div>
+</div>
+
+<!-- New Transaction Modal -->
+<div class="modal-overlay" id="new-txn-modal">
+    <div class="modal" style="max-width:520px;">
+        <div class="modal-header">
+            <h3>Submit New Transaction</h3>
+            <button class="modal-close" onclick="closeNewTxnModal()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+        </div>
+        <div class="modal-body" style="padding:24px;">
+            <p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">
+                Enter transaction details below. It will be scored by the ML pipeline in real-time and broadcast to the live feed.
+            </p>
+            <form id="new-txn-form" onsubmit="submitNewTransaction(event)">
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+                    <div>
+                        <label style="font-size:12px;font-weight:600;color:var(--text-secondary);display:block;margin-bottom:4px;">Sender Name</label>
+                        <input type="text" id="txn-sender-name" value="Sahil Demo" required style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;font-family:Inter,sans-serif;">
+                    </div>
+                    <div>
+                        <label style="font-size:12px;font-weight:600;color:var(--text-secondary);display:block;margin-bottom:4px;">Sender Account</label>
+                        <input type="text" id="txn-sender-acct" value="HDFC10001234" required style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;font-family:Inter,sans-serif;">
+                    </div>
+                    <div>
+                        <label style="font-size:12px;font-weight:600;color:var(--text-secondary);display:block;margin-bottom:4px;">Receiver Name</label>
+                        <input type="text" id="txn-receiver-name" value="Unknown Entity" required style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;font-family:Inter,sans-serif;">
+                    </div>
+                    <div>
+                        <label style="font-size:12px;font-weight:600;color:var(--text-secondary);display:block;margin-bottom:4px;">Receiver Account</label>
+                        <input type="text" id="txn-receiver-acct" value="AXIS90005678" required style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;font-family:Inter,sans-serif;">
+                    </div>
+                    <div>
+                        <label style="font-size:12px;font-weight:600;color:var(--text-secondary);display:block;margin-bottom:4px;">Amount (₹)</label>
+                        <input type="number" id="txn-amount" value="750000" min="1" required style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;font-family:Inter,sans-serif;">
+                    </div>
+                    <div>
+                        <label style="font-size:12px;font-weight:600;color:var(--text-secondary);display:block;margin-bottom:4px;">Channel</label>
+                        <select id="txn-channel" style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;font-family:Inter,sans-serif;background:white;">
+                            <option value="UPI">UPI</option>
+                            <option value="IMPS">IMPS</option>
+                            <option value="NEFT">NEFT</option>
+                            <option value="RTGS" selected>RTGS</option>
+                            <option value="SWIFT">SWIFT</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label style="font-size:12px;font-weight:600;color:var(--text-secondary);display:block;margin-bottom:4px;">Sender Bank</label>
+                        <select id="txn-sender-bank" style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;font-family:Inter,sans-serif;background:white;">
+                            <option value="HDFC Bank">HDFC Bank</option>
+                            <option value="ICICI Bank">ICICI Bank</option>
+                            <option value="SBI">SBI</option>
+                            <option value="Axis Bank">Axis Bank</option>
+                            <option value="PSB National Bank">PSB National Bank</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label style="font-size:12px;font-weight:600;color:var(--text-secondary);display:block;margin-bottom:4px;">Receiver Bank</label>
+                        <select id="txn-receiver-bank" style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;font-family:Inter,sans-serif;background:white;">
+                            <option value="Axis Bank">Axis Bank</option>
+                            <option value="HDFC Bank">HDFC Bank</option>
+                            <option value="ICICI Bank">ICICI Bank</option>
+                            <option value="SBI">SBI</option>
+                            <option value="PSB National Bank">PSB National Bank</option>
+                        </select>
+                    </div>
+                </div>
+                <div style="margin-top:14px;">
+                    <label style="font-size:12px;font-weight:600;color:var(--text-secondary);display:block;margin-bottom:4px;">Location</label>
+                    <input type="text" id="txn-location" value="Mumbai" style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;font-family:Inter,sans-serif;">
+                </div>
+
+                <!-- Quick Presets -->
+                <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border-light);">
+                    <label style="font-size:11px;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;display:block;">Quick Presets</label>
+                    <div style="display:flex;gap:8px;flex-wrap:wrap;">
+                        <button type="button" class="btn btn-sm btn-outline" onclick="applyPreset('normal')">✅ Normal (₹5K)</button>
+                        <button type="button" class="btn btn-sm btn-outline" onclick="applyPreset('suspicious')">⚠️ Suspicious (₹7.5L)</button>
+                        <button type="button" class="btn btn-sm btn-outline" onclick="applyPreset('critical')">🚨 High-Risk (₹25L)</button>
+                    </div>
+                </div>
+
+                <div id="txn-result" style="margin-top:16px;display:none;"></div>
+
+                <div style="display:flex;gap:10px;margin-top:20px;">
+                    <button type="submit" class="btn btn-primary" id="btn-submit-txn" style="flex:1;">
+                        🚀 Submit & Score
+                    </button>
+                    <button type="button" class="btn btn-outline" onclick="closeNewTxnModal()" style="flex:0.5;">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>
