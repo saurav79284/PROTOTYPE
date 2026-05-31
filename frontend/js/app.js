@@ -30,7 +30,7 @@ function showToast(title, message, type = 'info') {
       <div class="toast-message">${message}</div>
     </div>`;
   container.appendChild(toast);
-  setTimeout(() => { if (toast.parentNode) toast.remove(); }, 5000);
+  setTimeout(() => { if (toast.parentNode) toast.remove(); }, 2000);
 }
 
 
