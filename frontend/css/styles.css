@@ -800,7 +800,7 @@ body {
   font-weight: 500;
   line-height: 1.4;
   box-shadow: 0 8px 24px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1);
-  animation: toastSlideIn 0.35s ease, toastFadeOut 0.4s ease 4.6s forwards;
+  animation: toastSlideIn 0.35s ease, toastFadeOut 0.3s ease 1.7s forwards;
   display: flex;
   align-items: flex-start;
   gap: 10px;
