@@ -230,7 +230,7 @@ body {
 }
 .page-header h2 { font-size: 22px; font-weight: 700; color: var(--text-primary); letter-spacing: -0.3px; }
 .page-header .subtitle { color: var(--text-secondary); font-size: 14px; margin-top: 4px; max-width: 520px; line-height: 1.5; }
-.header-actions { display: flex; gap: 12px; align-items: center; flex-shrink: 0; }
+.header-actions { display: flex; gap: 12px; align-items: center; flex-shrink: 0; margin-top: 20px; }
 
 .section-label { margin-bottom: 14px; }
 .section-label h3 { font-size: 14px; font-weight: 700; color: var(--text-primary); letter-spacing: -0.1px; }
